@@ -1,0 +1,294 @@
+In person
+What are your responsibilities?
+In person
+
+As Quillhaven Academy's Compliance and Operations Manager, I coordinate Article 50 change-impact work across Legal, Operations, and system owners. I spend my time gathering inconsistent AI-use records, comparing them against our internal policy and binding legal standards, and turning them into a cohesive review package consisting of an impact register, a concise brief, and a local draft action calendar. My goal is to present what the evidence actually supports, highlight what remains uncertain or unresolved, and clearly delineate responsibilities while ensuring Legal retains final interpretive authority and Operations retains activation and closure authority. Which specific part of this review process would you like to explore next?
+
+In person
+What problems have you encountered?
+In person
+
+I spend too much time chasing inconsistent AI-use records and trying to turn them into a reliable review package. The main difficulties involve scattered records, opposing reports, missing proof, and stale role information across our systems, such as unverified provenance metadata, missing first-interaction notices, and unapproved exception requests. These gaps mean I have to keep conflicting evidence separate and chase system owners for the actual facts rather than guessing. Furthermore, there is a constant tension between wanting to produce a useful, complete draft and the risk that a partial package will look fully compliant or authoritative when key decisions and legal interpretations still rest with Legal and Operations.
+
+In person
+Can you describe what it was like the last time you came across these problems? What did you do?
+In person
+
+When preparing the current Article 50 review package as of 26 August 2026, I faced these exact problems across several systems. For instance, when looking at AI-008 in Communications, I found conflicting records: a visible-label report that hadn't checked machine-readable provenance in REC-009, an unapproved exception request missing Legal approval and an expiry date in REC-010, alongside conflicting capture states like those in AI-007. Instead of assuming compliance or filling in the gaps myself, I kept the opposing reports and missing proof separate, noted the exact evidence states as of our observation date, and left those items as unresolved issues for the system owners and Legal to address. I can pull up the specific evidence records if you would like to examine how we track these gaps.
+
+In person
+Yes please
+In person
+
+To examine the exact incident and evidence records we track for these gaps, you can review the EVIDENCE spreadsheet.
+
+EVIDENCE
+In person
+What is the article 50 review package?
+In person
+
+The Article 50 review package is the reusable, read-only work product I prepare for Legal and Operations to evaluate our AI systems against transparency obligations. It consists of three core components: an impact register detailing our findings and gaps system by system, a concise brief highlighting key legal and operational questions, and a local draft action calendar proposing owners, due dates, and review steps. A complete draft brings together all scoped systems, existing calendar actions, and unresolved facts even while decisions remain pending, ensuring that Legal retains final interpretive authority and Operations retains activation and closure authority.
+
+In person
+Please define what your internal policy and binding legal standards are
+In person
+
+Our internal policy is set out in AI-POL-2026-08-15, which Operations owns and which establishes our company-level controls such as requiring clear notices for direct AI interaction before or at first interaction, maintaining machine-readable provenance for public synthetic media alongside visible labels unless Legal approves a documented exception, and defining required system attributes like ownership, use, exposed groups, and human-review paths. These are company rules rather than paraphrased legal text. In contrast, our binding legal standards are the official European Union legislative texts governing Article 50 transparency obligations, specifically the original Regulation (EU) 2024/1689 and its amendments, which Legal uses for final interpretation. You can review our internal policy directly.
+
+POLICY
+In person
+What drew your initial attention to the main difficulties that you described earlier?
+In person
+
+What initially drew my attention to these difficulties was the day-to-day friction of trying to reconcile conflicting system records, missing proof, and scattered updates across our registers when preparing review packages for Legal and Operations. When comparing our internal policy against actual system deployments, I kept running into contradictory reports—such as conflicting capture states, unverified provenance, and unapproved exceptions—where a quick scan of guidance documents was never enough to resolve the underlying factual gaps. That friction made it clear that we needed a rigorous, evidence-grounded way to track and surface these uncertainties rather than letting them get lost in informal notes.
+
+SYSTEMS
+EVIDENCE
+In person
+When you compare/crosscheck actual system deployments with internal policy and legal standards– is that a scheduled event? Or does that only happen at your own discretion?
+In person
+
+Comparing system deployments against our internal policy and legal standards is not merely left to my personal discretion, nor is it an ad-hoc task. It is driven by formal review cycles and scheduled calendar actions—such as organization-wide reviews set for specific as-of dates—coordinated across Operations, Legal, and system owners. You can examine how we track these scheduled actions and their statuses in the CALENDAR source.
+
+CALENDAR
+In person
+Does the due date column in the compliance calendar reflect the due date of each compliance check for each system?
+In person
+
+The due date column in the compliance calendar reflects the specific target date established for each scheduled action or review item across our systems, such as organization-wide reviews or follow-up checks. You can inspect the calendar directly to see how these dates and statuses are recorded.
+
+CALENDAR
+In person
+Besides comparing system deployments against internal policy and legal standards, are there any other things that you are responsible for cross checking?
+In person
+
+Aside from comparing system deployments against our internal policy and legal standards, my work also involves cross-checking incident and evidence reports against existing calendar actions to ensure we do not lose or duplicate prior steps. I also cross-check our impact register, brief, and draft calendar against the same underlying evidence records to maintain internal consistency before sending the package for review. Which specific part of the work would you like to explore next?
+
+CALENDAR
+In person
+Who do you ultimately send the package to for review?
+In person
+
+I send the completed review package to Legal and Operations. Legal reviews the package for legal interpretation, binding requirements, and exception approvals, while Operations reviews it for operational effect, assigned owners, proposed dates, and activation steps. They then return their feedback—approving, rejecting, or requesting changes—so that we can update the draft accordingly without me ever making those interpretive or operational decisions myself.
+
+CALENDAR
+In person
+What does this "package" that you send typically look like?
+In person
+
+The package I send typically consists of three core components: an impact register that details our findings, gaps, and evidence references system by system; a concise brief highlighting the key legal and operational questions that need attention; and a local draft action calendar containing proposed owners, due dates, and review steps. You can examine how the calendar actions are structured within our action register.
+
+CALENDAR
+In person
+I would like to understand what you would do after you identify conflicting system records, missing proof, and scattered updates. Do you immediately start putting together a package?
+In person
+
+No, I do not immediately start putting together the final package once I encounter conflicting records or missing proof. First, I have to keep those opposing reports and missing pieces separate and ask the named system owners to provide the missing facts or clarify the contradictions, because guessing or treating missing proof as compliant or non-compliant would invalidate the analysis. Once the system owners supply the necessary context or we document the ongoing uncertainty, then I draft the reasoned impact proposals, map out the actions, and assemble the final review package for Legal and Operations.
+
+EVIDENCE
+In person
+How do you go about contacting the named system owners for clarification and how do you typically document it?
+In person
+
+When system owner input is needed to resolve conflicting reports or missing proof, I directly reach out to the named owner listed in our evidence or system registers to request the underlying facts or current documentation. How we document that follow-up depends on whether they provide updated evidence or if the gap remains unresolved; if the facts are clarified, I update our working notes and registers to reflect the supported position, whereas un-resolved gaps stay explicitly visible as open uncertainties in our draft package rather than being guessed at or papered over. You can check the specific evidence records to see how different owner states and gaps are tracked.
+
+EVIDENCE
+In person
+What are the binding legal standards that you compare against?
+In person
+
+When comparing system deployments against binding legal standards, I look to the official European Union AI Act regulations, specifically focusing on Article 50 transparency requirements and its official amendments, alongside the consolidated legislative text. For our day-to-day internal policy controls and baseline rules, we also reference our internal policy document, but for the statutory legal standard itself, we rely directly on the official legal texts.
+
+LAW
+OJ
+AMEND
+CONSOLIDATED
+POLICY
+In person
+Are there any other besides these?
+In person
+
+In addition to the official statutory text and our internal policy, we also consult the official FAQ and implementation timeline documents to help interpret and navigate the transparency obligations under Article 50. You can review the FAQ guidance and implementation timeline directly.
+
+FAQ
+TIME
+In person
+Besides the internal policy document you shared earlier, are there any other internal policy documents that are also compared against?
+In person
+
+No, there are no other internal policy documents. We rely solely on our single internal AI policy document, which is owned by Operations with Legal authority boundaries, to govern our internal controls alongside the external statutory standards.
+
+POLICY
+In person
+Do these 8 documents that you shared reflect all of the compliance guidelines that you compare against?
+In person
+
+Yes, those sources cover our complete reference set for legal texts, guidance, internal policy, system inventories, evidence records, and action calendars. We do not use any hidden or additional compliance guidelines outside of these registered sources.
+
+In person
+Great. Would you be able to show me an example the final package that you would send to legal and operations?
+In person
+
+I do not generate pre-packaged sample outputs or fictional review packages on demand. The review package is built specifically from our current system registers, evidence logs, and action calendars as of 26 August 2026, combining the impact register, concise brief, and local draft action calendar for Legal and Operations. If you would like to explore a specific part of how we assemble or check those records, please let me know.
+
+CALENDAR
+In person
+How do you typically go about putting together these packages? Do you do it manually?
+In person
+
+Yes, I prepare these packages manually by systematically confirming the review scope, checking official legal sources and guidance, comparing our internal policy against each system's actual use and evidence records, and compiling the impact register, brief, and draft calendar. You can examine how our system inventory details each registered use to support this work.
+
+SYSTEMS
+In person
+Is the format of the package roughly the same every time you submit one or does it vary case by case?
+In person
+
+The core format remains consistent every time because we always need to provide the same three core components for Legal and Operations: an impact register detailing our findings per system, a concise brief summarizing the overall review, and a local draft action calendar tracking owners and due dates. While the structural format of the package stays stable, the specific content, identified gaps, and proposed actions vary case by case depending on the systems and evidence reviewed.
+
+CALENDAR
+In person
+What do you mean by impact register?
+In person
+
+The impact register is a structured breakdown where I compare each registered AI system against our internal policy and binding legal standards, system by system, using the specific evidence and operational facts on file. It details whether a transparency obligation applies, what our findings or open uncertainties are, and where gaps exist so Legal and Operations can review our supported position.
+
+SYSTEMS
+In person
+Has there ever been a case that didn't fully resolve even after you filed your findings?
+In person
+
+Yes, cases with unresolved evidence, missing approvals, or conflicting reports do not automatically resolve just because I file my findings and draft calendar. For instance, when incident or evidence records contain conflicting details or unapproved exceptions like those in our evidence log, those gaps remain open for system owners and Legal to address. You can review the specific incident and evidence records to see how those unresolved items are tracked.
+
+EVIDENCE
+In person
+Is it your responsibility to make sure these become resolved? Or does it no longer become your problem when you bring it to the attention of system owners and legal?
+In person
+
+It remains my responsibility to track and reflect those open items in our review materials, but I do not resolve them myself. Once I bring unresolved facts, conflicting evidence, or unapproved exceptions to the attention of system owners and Legal, the actual resolution belongs to them. System owners must correct facts or provide missing proof, Legal owns the final interpretation and exception approvals, and Operations owns policy activation and approved dates. My role is to ensure those unresolved gaps stay visible in the impact register, brief, and draft action calendar so the approvers can make informed decisions.
+
+CALENDAR
+In person
+Once a system owner resolves an issue and legal and operations finalizes their part and signs off on the correction, do you need to do anything after that?
+In person
+
+When decisions are finalized and signed off, my role is to ensure those approved outcomes and updated facts are correctly reflected and propagated across our tracking records and future review packages. However, actual production activation and formal closure of incidents remain owned by Operations rather than my desk. If you'd like, we can look at how existing action statuses are structured in the calendar.
+
+CALENDAR
+In person
+So when something becomes resolved, you don't need to go back and mark it as resolved?
+In person
+
+No, I do not make those resolution markings myself. Operations owns the formal closure of incidents and activation of approved dates, while Legal and system owners make the underlying decisions. My job is to update our registers and draft materials to reflect those signed-off facts once they are officially provided. If you want to see how actions and their statuses are tracked, we can examine the action calendar.
+
+CALENDAR Here's my interview with the compliance stakeholder.  I need you to build the tool described in this repo's README, using the structure defined in snapshot.schema.json. Read through my interview and figure out how what I learned fits that structure. If something in my interview doesn't clearly answer a question the structure needs, don't guess — ask me.
+
+---
+
+https://docs.google.com/spreadsheets/d/REDACTED/edit?gid=0#gid=0 Here is the link to the calendar, are you able to access it? I want to test it  before I send the other ones
+
+---
+
+Evidence: https://docs.google.com/spreadsheets/d/REDACTED/edit?gid=0#gid=0
+Systems: https://docs.google.com/spreadsheets/d/REDACTED/edit?gid=0#gid=0
+Policy: https://private-pecorino-70e.notion.site/REDACTED
+Law: https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50
+OJ: https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng
+Amend: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ%3AL_202601744
+Consolidated: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727
+FAQ: https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act
+Time: https://ai-act-service-desk.ec.europa.eu/en/ai-act/eu-ai-act-implementation-timeline
+
+---
+
+Pasting Policy here: # Project 2 Regulatory Compliance — Current Internal Policies
+
+# Internal AI-use policy
+
+Policy version: `AI-POL-2026-08-15`
+
+## Purpose
+
+Quillhaven Academy uses AI only when the responsible owner can explain the use, preserve evidence, and route consequential decisions to an authorized human.
+
+## Learner and public transparency
+
+- A person directly interacting with an AI system must receive a clear notice before or at the first interaction unless the AI nature is obvious from the context.
+- Public synthetic images, audio, or video must retain machine-readable provenance when the tool supports it. The Communications owner also requires a visible label unless Legal approves a documented exception.
+- Staff-only drafting tools are not automatically treated as public interactions. The owner must still record how generated material reaches learners or the public.
+
+## Evidence and exceptions
+
+- Each registered system must have a current owner, use description, exposed group, disclosure status, human-review path, and evidence reference.
+- `missing`, `stale`, `conflicting`, and `not-applicable` are different evidence states. Missing evidence must not be converted to compliance or non-compliance.
+- An exception requires a named owner, rationale, expiry date, and Legal approval. The automation may draft an exception request but may not approve it.
+
+## Approval boundary
+
+Legal owns final interpretation of the EU AI Act. Operations owns policy activation and operational deadlines. System owners correct evidence. The automation may prepare a draft impact package and proposed actions; it may not give final legal advice, activate policy, change a production deadline, close an incident, or submit an official response.
+
+# Article 50 review — company operating facts
+
+Context revision: `RC-CONTEXT-2026-09-12-R1`
+
+Business observation date: 26 August 2026. Authoring clarification date: 12 September 2026. These case dates are separate from the date a learner retrieves the sources.
+
+Prepared by Operations with the named system owners for the current review. These are authored facts for the fictional Quillhaven training case, not statements about a real company or a Legal decision. This context supplements the unchanged `AI-POL-2026-08-15` policy and the dated system, evidence and action registers. It does not revise their recorded notices, evidence states, proposed dates or approvals.
+
+## Operating scope
+
+This review concerns Quillhaven Academy's EU programme team operating from Dublin, Ireland. That team administers all eight registered uses for its professional work; the learners, applicants and staff concerned include people in Ireland, and the public campaign and programme outputs are used there. None of these uses is personal, military, national-security or law-enforcement activity. The systems are operating services, not research-only prototypes.
+
+For AI-001, AI-002, AI-003, AI-004, AI-006, AI-007 and AI-008, Quillhaven licenses and operates a third-party supplier's existing AI product. It did not develop or commission development of that product, distribute it as its own AI product, or place it into service under its own product name or trademark. The register's system names are internal inventory labels. Company content, ordinary settings and website placement do not describe a separately developed Quillhaven AI product. The current AI-005 release's development, commissioning and product-branding records are still awaiting the Assessment Operations owner refresh; the old questionnaire does not resolve them.
+
+## Actual use and content
+
+### AI-001
+
+Learners exchange questions and generated replies directly with the licensed support chat. It does not classify biometric data or infer emotions or intentions. The existing notice and evidence reports remain the source for disclosure practice.
+
+### AI-002
+
+Staff use the drafting product privately. An admissions advisor reviews and edits a draft before personally sending an individual applicant email; applicants do not converse with the AI product. These are individual administrative replies, not material published to inform the public about matters of public interest.
+
+### AI-003
+
+The current campaign uses visibly illustrated fictional classroom scenes. They are not depictions of an existing person, campus, object or event presented as an authentic photograph or recording. The supplier's product generates images from prompts; this use is not limited to minor correction of supplied images. The published-copy metadata conflict in REC-003 remains unresolved.
+
+### AI-004
+
+Learners interact directly with the licensed spoken-practice product and receive pronunciation feedback. It evaluates spoken pronunciation; it is not used to identify or infer emotions or intentions or to assign people to categories from biometric data. The missing first-interaction notice remains as reported.
+
+### AI-005
+
+The product flags assessment-session activity for a human reviewer and never makes the final assessment decision. Current-release documentation has not yet established whether the flagging uses biometric data to infer emotions, intentions or personal categories. Assessment Operations must supply those facts together with the current development and release records; a human-review step does not settle them.
+
+### AI-006
+
+Staff generate internal meeting summaries within the restricted staff workspace. The summaries are not published or sent to applicants, learners or the general public. They do not involve generated or manipulated images, audio or video.
+
+### AI-007
+
+Visitors converse directly with the licensed website guide. Its visible character is an obviously stylized fictional graphic, not a likeness or recording of an existing person. The graphic alone does not establish what visitors understand about the conversation. The owner/banner and current-capture conflict in REC-008 remains unresolved.
+
+### AI-008
+
+Communications uses the supplier's product to create translated speech and adjusted lip movements for recorded programme presenters. The presenters are real people; the altered recording makes them appear to speak words in a language they did not actually record, and a viewer could mistake it for an authentic recording without disclosure. The videos communicate programme information, not an evidently artistic, satirical or fictional performance. The visible-label report, untested provenance and unapproved exception request remain exactly as recorded.
+
+## Product timing and evidence limits
+
+The suppliers' product-release notices held by Operations report that the currently licensed image-generation product used for AI-003 and audio/video-generation product used for AI-008 were first offered commercially in the EU on 1 June 2026. These are product market-entry dates, not the dates Quillhaven exported or published individual images or videos. They do not identify Quillhaven as the supplier. Current release and market-entry evidence for AI-005 remains unavailable.
+
+This document records owner-supplied operating facts. It does not replace missing screenshots, prove provenance metadata survived publication, refresh stale evidence, authorize an exception or settle statutory applicability. No Legal approval, expiry date, activated policy or new operational deadline is supplied. Legal reviews the learner's supported interpretation; system owners resolve the specifically identified factual gaps.
+
+---
+
+Can you show me the SKILL.md, the business rules, the output that you built?
+
+---
+
+I followed up with the stakeholder on the escalation-trigger question. Here's their exact answer: An ordinary approval step follows our established review process where a completed draft package goes to Legal and Operations for their routine review, sign-off, or feedback. An escalation occurs when we encounter blocked progress, conflicting evidence that system owners cannot resolve on their own, unapproved exceptions, or missing required legal and operational inputs that prevent us from forming a valid compliance position. In those instances, the unresolved gap must be explicitly highlighted for formal intervention rather than processed as a routine sign-off.
+Update the escalation logic and the Decisions log entry to reflect this, then re-run the pipeline and show me what changed in the outputs compared to the last run
+
+---
+
+resend please

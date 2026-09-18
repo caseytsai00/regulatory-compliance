@@ -1,0 +1,50 @@
+{
+  "cli_version": "0.10.2",
+  "checkpoint_id": "56333f41d525",
+  "strategy": "manual-commit",
+  "branch": "main",
+  "checkpoints_count": 7,
+  "files_touched": [
+    "deliverables/action-calendar.ics",
+    "deliverables/compliance-brief.md",
+    "deliverables/impact-register.csv",
+    "deliverables/snapshots/01-scope.json",
+    "deliverables/snapshots/02-source-capture.json",
+    "deliverables/snapshots/03-authority-and-timing.json",
+    "deliverables/snapshots/04-evidence-reconciliation.json",
+    "deliverables/snapshots/05-impact-analysis.json",
+    "deliverables/snapshots/06-actions-and-approvals.json",
+    "deliverables/snapshots/07-publication-validation.json",
+    "deliverables/snapshots/sources/SRC-AMEND.raw",
+    "deliverables/snapshots/sources/SRC-CALENDAR.raw",
+    "deliverables/snapshots/sources/SRC-CONSOLIDATED.raw",
+    "deliverables/snapshots/sources/SRC-EVIDENCE.raw",
+    "deliverables/snapshots/sources/SRC-FAQ.raw",
+    "deliverables/snapshots/sources/SRC-LAW.raw",
+    "deliverables/snapshots/sources/SRC-OJ.raw",
+    "deliverables/snapshots/sources/SRC-SYSTEMS.raw",
+    "deliverables/snapshots/sources/SRC-TIME.raw",
+    "regulatory-change-impact-brief/SKILL.md",
+    "regulatory-change-impact-brief/references/.gitkeep",
+    "regulatory-change-impact-brief/references/business-rules.md",
+    "regulatory-change-impact-brief/references/internal-policy.md",
+    "regulatory-change-impact-brief/scripts/.gitkeep",
+    "regulatory-change-impact-brief/scripts/build_review.py"
+  ],
+  "sessions": [
+    {
+      "metadata": "/56/333f41d525/0/metadata.json",
+      "transcript": "/56/333f41d525/0/full.jsonl",
+      "compact_transcript": "/56/333f41d525/0/transcript.jsonl",
+      "content_hash": "/56/333f41d525/0/content_hash.txt",
+      "prompt": "/56/333f41d525/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 136,
+    "cache_creation_tokens": 573361,
+    "cache_read_tokens": 12147552,
+    "output_tokens": 128457,
+    "api_call_count": 68
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "cli_version": "0.10.2",
+  "checkpoint_id": "56333f41d525",
+  "session_id": "2270a022-ab58-4a08-96d5-4e8b94a7f372",
+  "strategy": "manual-commit",
+  "created_at": "2026-09-18T00:34:05.224335Z",
+  "branch": "main",
+  "checkpoints_count": 7,
+  "save_step_count": 7,
+  "files_touched": [
+    "deliverables/action-calendar.ics",
+    "deliverables/compliance-brief.md",
+    "deliverables/impact-register.csv",
+    "deliverables/snapshots/01-scope.json",
+    "deliverables/snapshots/02-source-capture.json",
+    "deliverables/snapshots/03-authority-and-timing.json",
+    "deliverables/snapshots/04-evidence-reconciliation.json",
+    "deliverables/snapshots/05-impact-analysis.json",
+    "deliverables/snapshots/06-actions-and-approvals.json",
+    "deliverables/snapshots/07-publication-validation.json",
+    "deliverables/snapshots/sources/SRC-AMEND.raw",
+    "deliverables/snapshots/sources/SRC-CALENDAR.raw",
+    "deliverables/snapshots/sources/SRC-CONSOLIDATED.raw",
+    "deliverables/snapshots/sources/SRC-EVIDENCE.raw",
+    "deliverables/snapshots/sources/SRC-FAQ.raw",
+    "deliverables/snapshots/sources/SRC-LAW.raw",
+    "deliverables/snapshots/sources/SRC-OJ.raw",
+    "deliverables/snapshots/sources/SRC-SYSTEMS.raw",
+    "deliverables/snapshots/sources/SRC-TIME.raw",
+    "regulatory-change-impact-brief/SKILL.md",
+    "regulatory-change-impact-brief/references/.gitkeep",
+    "regulatory-change-impact-brief/references/business-rules.md",
+    "regulatory-change-impact-brief/references/internal-policy.md",
+    "regulatory-change-impact-brief/scripts/.gitkeep",
+    "regulatory-change-impact-brief/scripts/build_review.py"
+  ],
+  "agent": "Claude Code",
+  "model": "claude-sonnet-5",
+  "turn_id": "ec3480f3302d",
+  "compact_transcript_start": 0,
+  "token_usage": {
+    "input_tokens": 136,
+    "cache_creation_tokens": 573361,
+    "cache_read_tokens": 12147552,
+    "output_tokens": 128457,
+    "api_call_count": 68
+  },
+  "session_metrics": {
+    "turn_count": 7
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-09-18T00:34:05.176654Z",
+    "agent_lines": 55154,
+    "agent_removed": 0,
+    "human_added": 170,
+    "human_modified": 118,
+    "human_removed": 0,
+    "total_committed": 55384,
+    "total_lines_changed": 55442,
+    "agent_percentage": 99.48053822012193,
+    "metric_version": 2
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 1,
+      "user_lines_added": 438,
+      "user_lines_removed": 2,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0,
+      "user_added_per_file": {
+        ".claude/settings.json": 84,
+        "regulatory-change-impact-brief/SKILL.md": 64,
+        "regulatory-change-impact-brief/references/business-rules.md": 78,
+        "regulatory-change-impact-brief/scripts/snapshot_chain.py": 212
+      },
+      "user_removed_per_file": {
+        "regulatory-change-impact-brief/references/.gitkeep": 1,
+        "regulatory-change-impact-brief/scripts/.gitkeep": 1
+      }
+    },
+    {
+      "checkpoint_number": 2,
+      "user_lines_added": 84,
+      "user_lines_removed": 0,
+      "agent_lines_added": 354,
+      "agent_lines_removed": 2,
+      "user_added_per_file": {
+        ".claude/settings.json": 84
+      }
+    },
+    {
+      "checkpoint_number": 3,
+      "user_lines_added": 84,
+      "user_lines_removed": 0,
+      "agent_lines_added": 354,
+      "agent_lines_removed": 2,
+      "user_added_per_file": {
+        ".claude/settings.json": 84
+      }
+    },
+    {
+      "checkpoint_number": 4,
+      "user_lines_added": 84,
+      "user_lines_removed": 0,
+      "agent_lines_added": 354,
+      "agent_lines_removed": 2,
+      "user_added_per_file": {
+        ".claude/settings.json": 84
+      }
+    },
+    {
+      "checkpoint_number": 5,
+      "user_lines_added": 84,
+      "user_lines_removed": 0,
+      "agent_lines_added": 55620,
+      "agent_lines_removed": 2,
+      "user_added_per_file": {
+        ".claude/settings.json": 84
+      }
+    },
+    {
+      "checkpoint_number": 6,
+      "user_lines_added": 84,
+      "user_lines_removed": 0,
+      "agent_lines_added": 55620,
+      "agent_lines_removed": 2,
+      "user_added_per_file": {
+        ".claude/settings.json": 84
+      }
+    },
+    {
+      "checkpoint_number": 7,
+      "user_lines_added": 227,
+      "user_lines_removed": 58,
+      "agent_lines_added": 55711,
+      "agent_lines_removed": 2,
+      "user_added_per_file": {
+        ".claude/settings.json": 84,
+        "deliverables/action-calendar.ics": 8,
+        "deliverables/compliance-brief.md": 4,
+        "deliverables/snapshots/01-scope.json": 1,
+        "deliverables/snapshots/02-source-capture.json": 15,
+        "deliverables/snapshots/03-authority-and-timing.json": 2,
+        "deliverables/snapshots/04-evidence-reconciliation.json": 2,
+        "deliverables/snapshots/05-impact-analysis.json": 2,
+        "deliverables/snapshots/06-actions-and-approvals.json": 62,
+        "deliverables/snapshots/07-publication-validation.json": 32,
+        "deliverables/snapshots/sources/SRC-AMEND.raw": 5,
+        "deliverables/snapshots/sources/SRC-CONSOLIDATED.raw": 5,
+        "deliverables/snapshots/sources/SRC-OJ.raw": 5
+      },
+      "user_removed_per_file": {
+        "deliverables/action-calendar.ics": 8,
+        "deliverables/compliance-brief.md": 1,
+        "deliverables/snapshots/01-scope.json": 1,
+        "deliverables/snapshots/02-source-capture.json": 15,
+        "deliverables/snapshots/03-authority-and-timing.json": 2,
+        "deliverables/snapshots/04-evidence-reconciliation.json": 2,
+        "deliverables/snapshots/05-impact-analysis.json": 2,
+        "deliverables/snapshots/06-actions-and-approvals.json": 7,
+        "deliverables/snapshots/07-publication-validation.json": 5,
+        "deliverables/snapshots/sources/SRC-AMEND.raw": 5,
+        "deliverables/snapshots/sources/SRC-CONSOLIDATED.raw": 5,
+        "deliverables/snapshots/sources/SRC-OJ.raw": 5
+      }
+    }
+  ]
+}
