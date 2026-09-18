@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="og: https://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8" />
+<meta name="description" content="This page provides answers to frequently asked questions related to concepts and obligations clarified in the Commission Guidelines on Article 50 of the AI Act." />
+<link rel="canonical" href="https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act" />
+<meta property="og:title" content="Transparency obligations under Article 50 of the AI Act" />
+<meta property="og:description" content="This page provides answers to frequently asked questions related to concepts and obligations clarified in the Commission Guidelines on Article 50 of the AI Act." />
+<meta name="google-site-verification" content="GN5SSGzUMCqwnX9gCdnErtIz1NFmyq3xI80rJiEp48w" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script type="module" src="/themes/contrib/oe_theme/dist/duet/duet/duet.esm.js"></script>
+<meta property="og:locale:alternate" content="bg_BG" />
+<meta property="og:locale:alternate" content="es_ES" />
+<meta property="og:locale:alternate" content="cs_CZ" />
+<meta property="og:locale:alternate" content="da_DK" />
+<meta property="og:locale:alternate" content="de_DE" />
+<meta property="og:locale:alternate" content="et_EE" />
+<meta property="og:locale:alternate" content="el_GR" />
+<meta property="og:locale:alternate" content="fr_FR" />
+<meta property="og:locale:alternate" content="ga_IE" />
+<meta property="og:locale:alternate" content="hr_HR" />
+<meta property="og:locale:alternate" content="it_IT" />
+<meta property="og:locale:alternate" content="lv_LV" />
+<meta property="og:locale:alternate" content="lt_LT" />
+<meta property="og:locale:alternate" content="hu_HU" />
+<meta property="og:locale:alternate" content="mt_MT" />
+<meta property="og:locale:alternate" content="nl_NL" />
+<meta property="og:locale:alternate" content="pl_PL" />
+<meta property="og:locale:alternate" content="pt_PT" />
+<meta property="og:locale:alternate" content="ro_RO" />
+<meta property="og:locale:alternate" content="sk_SK" />
+<meta property="og:locale:alternate" content="sl_SI" />
+<meta property="og:locale:alternate" content="fi_FI" />
+<meta property="og:locale:alternate" content="sv_SE" />
+<link rel="alternate" hreflang="bg" href="https://digital-strategy.ec.europa.eu/bg/faqs/transparency-obligations-under-article-50-ai-act" />
+<link rel="alternate" hreflang="es" href="https://digital-strategy.ec.europa.eu/es/faqs/transparency-obligations-under-article-50-ai-act" />
+<link rel="alternate" hreflang="cs" href="https://digital-strategy.ec.europa.eu/cs/faqs/transparency-obligations-under-article-50-ai-act" />
+<link rel="alternate" hreflang="da" href="https://digital-strategy.ec.europa.eu/da/faqs/transparency-obligations-under-article-50-ai-act" />
+<link rel="alternate" hreflang="de" href="https://digital-strategy.ec.europa.eu/de/faqs/transparency-obligations-under-article-50-ai-act" />
+<link rel="alternate" hreflang="et" href="https://digital-strategy.ec.europa.eu/et/faqs/transparency-obligations-under-article-50-ai-act" />
+<link rel="alternate" hreflang="el" href="https://digital-strategy.ec.europa.eu/el/faqs/transparency-obligations-under-article-50-ai-act" />
+<link rel="alternate" hreflang="en" href="https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act" />
+<link rel="alternate" hreflang="fr" href="https://digital-strategy.ec.europa.eu/fr/faqs/transparency-obligations-under-article-50-ai-act" />
+<link rel="alternate" hreflang="ga" href="https://digital-strategy.ec.europa.eu/ga/faqs/transparency-obligations-under-article-50-ai-act" />
+<link rel="alternate" hreflang="hr" href="https://digital-strategy.ec.europa.eu/hr/faqs/transparency-obligations-under-article-50-ai-act" />
+<link rel="alternate" hreflang="it" href="https://digital-strategy.ec.europa.eu/it/faqs/transparency-obligations-under-article-50-ai-act" />
+<link rel="alternate" hreflang="lv" href="https://digital-strategy.ec.europa.eu/lv/faqs/transparency-obligations-under-article-50-ai-act" />
+<link rel="alternate" hreflang="lt" href="https://digital-strategy.ec.europa.eu/lt/faqs/transparency-obligations-under-article-50-ai-act" />
+<link rel="alternate" hreflang="hu" href="https://digital-strategy.ec.europa.eu/hu/faqs/transparency-obligations-under-article-50-ai-act" />
+<link rel="alternate" hreflang="mt" href="https://digital-strategy.ec.europa.eu/mt/faqs/transparency-obligations-under-article-50-ai-act" />
+<link rel="alternate" hreflang="nl" href="https://digital-strategy.ec.europa.eu/nl/faqs/transparency-obligations-under-article-50-ai-act" />
+<link rel="alternate" hreflang="pl" href="https://digital-strategy.ec.europa.eu/pl/faqs/transparency-obligations-under-article-50-ai-act" />
+<link rel="alternate" hreflang="pt-pt" href="https://digital-strategy.ec.europa.eu/pt/faqs/transparency-obligations-under-article-50-ai-act" />
+<link rel="alternate" hreflang="ro" href="https://digital-strategy.ec.europa.eu/ro/faqs/transparency-obligations-under-article-50-ai-act" />
+<link rel="alternate" hreflang="sk" href="https://digital-strategy.ec.europa.eu/sk/faqs/transparency-obligations-under-article-50-ai-act" />
+<link rel="alternate" hreflang="sl" href="https://digital-strategy.ec.europa.eu/sl/faqs/transparency-obligations-under-article-50-ai-act" />
+<link rel="alternate" hreflang="fi" href="https://digital-strategy.ec.europa.eu/fi/faqs/transparency-obligations-under-article-50-ai-act" />
+<link rel="alternate" hreflang="sv" href="https://digital-strategy.ec.europa.eu/sv/faqs/transparency-obligations-under-article-50-ai-act" />
+<link rel="icon" href="/themes/custom/cnt_theme/images/favicons/ec/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="icon" href="/themes/custom/cnt_theme/images/favicons/ec/favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="/themes/custom/cnt_theme/images/favicons/ec/favicon.png" />
+
+    <title>Transparency obligations under Article 50 of the AI Act | Shaping Europe’s digital future</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_kK2UjEABQawYvW_od-43lcJ1Y3iHRODiu0_vEnumr9A.css?delta=0&amp;language=en&amp;theme=cnt_theme&amp;include=eJxFTlEKxSAMu5CbR5LqipZVLbZ-ePvJ44GQj5CEJBHSG6xviI-HB0q9udQsWMGKPnOPwJfaYmrZdfzrqVfpDXeOKQ4YK2A6rgxq5gQG5AFS1D9jCvB9lHs2mZFJCz7uF4fI6Hch2br21qtOlxrW_U7xA3SuRI8" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_Eq6xTceSJPMuXSucLL77SkaJamjkLLF4XcOKA4GuLZ0.css?delta=1&amp;language=en&amp;theme=cnt_theme&amp;include=eJxFTlEKxSAMu5CbR5LqipZVLbZ-ePvJ44GQj5CEJBHSG6xviI-HB0q9udQsWMGKPnOPwJfaYmrZdfzrqVfpDXeOKQ4YK2A6rgxq5gQG5AFS1D9jCvB9lHs2mZFJCz7uF4fI6Hch2br21qtOlxrW_U7xA3SuRI8" />
+<link rel="stylesheet" media="print" href="/sites/default/files/css/css_8UetaS_kQyBJ9Sc4YUwGKzJdH-eV8BDex_5U3j0il2U.css?delta=2&amp;language=en&amp;theme=cnt_theme&amp;include=eJxFTlEKxSAMu5CbR5LqipZVLbZ-ePvJ44GQj5CEJBHSG6xviI-HB0q9udQsWMGKPnOPwJfaYmrZdfzrqVfpDXeOKQ4YK2A6rgxq5gQG5AFS1D9jCvB9lHs2mZFJCz7uF4fI6Hch2br21qtOlxrW_U7xA3SuRI8" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_n_uEhXiP_UNSU9Bd2PPCDrDhexD_OpquY3nOu5nDySI.css?delta=3&amp;language=en&amp;theme=cnt_theme&amp;include=eJxFTlEKxSAMu5CbR5LqipZVLbZ-ePvJ44GQj5CEJBHSG6xviI-HB0q9udQsWMGKPnOPwJfaYmrZdfzrqVfpDXeOKQ4YK2A6rgxq5gQG5AFS1D9jCvB9lHs2mZFJCz7uF4fI6Hch2br21qtOlxrW_U7xA3SuRI8" />
+<link rel="stylesheet" media="print" href="/sites/default/files/css/css_6ZyDHtcxugQrPqcnakpB8_5wGoCcU9bZhTbSGFtj3NI.css?delta=4&amp;language=en&amp;theme=cnt_theme&amp;include=eJxFTlEKxSAMu5CbR5LqipZVLbZ-ePvJ44GQj5CEJBHSG6xviI-HB0q9udQsWMGKPnOPwJfaYmrZdfzrqVfpDXeOKQ4YK2A6rgxq5gQG5AFS1D9jCvB9lHs2mZFJCz7uF4fI6Hch2br21qtOlxrW_U7xA3SuRI8" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_gfkf9dDn7X0AhnZUF6xlMaPydOOIgeadxUJT1ZxDIpw.css?delta=5&amp;language=en&amp;theme=cnt_theme&amp;include=eJxFTlEKxSAMu5CbR5LqipZVLbZ-ePvJ44GQj5CEJBHSG6xviI-HB0q9udQsWMGKPnOPwJfaYmrZdfzrqVfpDXeOKQ4YK2A6rgxq5gQG5AFS1D9jCvB9lHs2mZFJCz7uF4fI6Hch2br21qtOlxrW_U7xA3SuRI8" />
+<link rel="stylesheet" media="print" href="/sites/default/files/css/css_1mXJP6UPTY1dzr4p7_rYEwWxunNoof3ryEGxjjF_MhA.css?delta=6&amp;language=en&amp;theme=cnt_theme&amp;include=eJxFTlEKxSAMu5CbR5LqipZVLbZ-ePvJ44GQj5CEJBHSG6xviI-HB0q9udQsWMGKPnOPwJfaYmrZdfzrqVfpDXeOKQ4YK2A6rgxq5gQG5AFS1D9jCvB9lHs2mZFJCz7uF4fI6Hch2br21qtOlxrW_U7xA3SuRI8" />
+
+    
+  </head>
+  <body data-ecl-auto-init="Tooltip" class="language-en ecl-typography path-node page-node-type-cnt-faq">
+        <a
+  href="#main-content"
+  class="ecl-link ecl-link--primary ecl-skip-link"
+   id="skip-id"
+>Skip to main content</a>
+
+    <script type="application/json">{"utility":"globan","theme":"dark","logo":true,"link":true,"mode":false}</script>
+
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+          <header
+  class="ecl-site-header ecl-site-header-with-logo-l ecl-site-header--has-menu"
+  data-ecl-auto-init="SiteHeader"
+>
+  
+    <div class="ecl-site-header__header">
+        <div class="ecl-site-header__inner">
+      <div class="ecl-site-header__background">
+        <div class="ecl-site-header__header">
+          <div class="ecl-site-header__container ecl-container">
+            <div class="ecl-site-header__top" data-ecl-site-header-top>
+                    <a
+    class="ecl-link ecl-link--standalone ecl-site-header__logo-link"
+    href="https://commission.europa.eu/index_en"
+    aria-label="Home - European Commission"
+  >
+                            <picture
+  class="ecl-picture ecl-site-header__picture"
+   title="European&#x20;Commission"
+><source 
+                  srcset="/themes/contrib/oe_theme/dist/ec/images/logo/positive/logo-ec--en.svg"
+                          media="(min-width: 996px)"
+                      ><img 
+              class="ecl-site-header__logo-image ecl-site-header__logo-image--l"
+              src="/themes/contrib/oe_theme/dist/ec/images/logo/logo-ec--mute.svg"
+              alt="European Commission logo"
+          ></picture>  </a>
+
+
+              <div class="ecl-site-header__action">
+                  <div class="language-switcher-language-url" id="block-languageswitchercontent" role="navigation">
+  
+    
+      <div class="ecl-site-header__language"><a
+    class="ecl-button ecl-button--tertiary ecl-button--neutral ecl-site-header__language-selector"
+    href="https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act"
+    data-ecl-language-selector
+    role="button"
+    aria-label="Change language, current language is English - en"
+      aria-controls="language-list-overlay"
+    ><span class="ecl-site-header__language-icon"><span 
+  class="wt-icon--global ecl-icon ecl-icon--m ecl-site-header__icon ecl-icon--global"
+  aria-hidden="false"
+   title="en" role="img"></span></span>en</a><div class="ecl-site-header__language-container" id="language-list-overlay" hidden data-ecl-language-list-overlay aria-labelledby="ecl-site-header__language-title" role="dialog"><div class="ecl-site-header__language-header"><div
+        class="ecl-site-header__language-title"
+        id="ecl-site-header__language-title"
+      >Select your language</div><button
+  class="ecl-button ecl-button--tertiary ecl-button--neutral ecl-site-header__language-close ecl-button--icon-only"
+  type="submit"
+   data-ecl-language-list-close
+><span class="ecl-button__container"><span class="ecl-button__label" data-ecl-label="true">Close</span><span 
+  class="wt-icon--close ecl-icon ecl-icon--m ecl-button__icon ecl-icon--close"
+  aria-hidden="true"
+   data-ecl-icon></span></span></button></div><div
+      class="ecl-site-header__language-content"
+      data-ecl-language-list-content
+    ><div class="ecl-site-header__language-category" data-ecl-language-list-eu><ul class="ecl-site-header__language-list" translate="no"><li class="ecl-site-header__language-item"><a
+  href="https://digital-strategy.ec.europa.eu/bg/faqs/transparency-obligations-under-article-50-ai-act"
+  class="ecl-link ecl-link--standalone ecl-site-header__language-link"
+   hreflang="bg"
+><span class="ecl-site-header__language-link-code">bg</span><span class="ecl-site-header__language-link-label" lang="bg">български</span></a></li><li class="ecl-site-header__language-item"><a
+  href="https://digital-strategy.ec.europa.eu/es/faqs/transparency-obligations-under-article-50-ai-act"
+  class="ecl-link ecl-link--standalone ecl-site-header__language-link"
+   hreflang="es"
+><span class="ecl-site-header__language-link-code">es</span><span class="ecl-site-header__language-link-label" lang="es">español</span></a></li><li class="ecl-site-header__language-item"><a
+  href="https://digital-strategy.ec.europa.eu/cs/faqs/transparency-obligations-under-article-50-ai-act"
+  class="ecl-link ecl-link--standalone ecl-site-header__language-link"
+   hreflang="cs"
+><span class="ecl-site-header__language-link-code">cs</span><span class="ecl-site-header__language-link-label" lang="cs">čeština</span></a></li><li class="ecl-site-header__language-item"><a
+  href="https://digital-strategy.ec.europa.eu/da/faqs/transparency-obligations-under-article-50-ai-act"
+  class="ecl-link ecl-link--standalone ecl-site-header__language-link"
+   hreflang="da"
+><span class="ecl-site-header__language-link-code">da</span><span class="ecl-site-header__language-link-label" lang="da">dansk</span></a></li><li class="ecl-site-header__language-item"><a
+  href="https://digital-strategy.ec.europa.eu/de/faqs/transparency-obligations-under-article-50-ai-act"
+  class="ecl-link ecl-link--standalone ecl-site-header__language-link"
+   hreflang="de"
+><span class="ecl-site-header__language-link-code">de</span><span class="ecl-site-header__language-link-label" lang="de">Deutsch</span></a></li><li class="ecl-site-header__language-item"><a
+  href="https://digital-strategy.ec.europa.eu/et/faqs/transparency-obligations-under-article-50-ai-act"
+  class="ecl-link ecl-link--standalone ecl-site-header__language-link"
+   hreflang="et"
+><span class="ecl-site-header__language-link-code">et</span><span class="ecl-site-header__language-link-label" lang="et">eesti</span></a></li><li class="ecl-site-header__language-item"><a
+  href="https://digital-strategy.ec.europa.eu/el/faqs/transparency-obligations-under-article-50-ai-act"
+  class="ecl-link ecl-link--standalone ecl-site-header__language-link"
+   hreflang="el"
+><span class="ecl-site-header__language-link-code">el</span><span class="ecl-site-header__language-link-label" lang="el">ελληνικά</span></a></li><li class="ecl-site-header__language-item"><a
+  href="https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act"
+  class="ecl-link ecl-link--standalone ecl-site-header__language-link ecl-site-header__language-link--active"
+   hreflang="en"
+><span class="ecl-site-header__language-link-code">en</span><span class="ecl-site-header__language-link-label" lang="en">English</span></a></li><li class="ecl-site-header__language-item"><a
+  href="https://digital-strategy.ec.europa.eu/fr/faqs/transparency-obligations-under-article-50-ai-act"
+  class="ecl-link ecl-link--standalone ecl-site-header__language-link"
+   hreflang="fr"
+><span class="ecl-site-header__language-link-code">fr</span><span class="ecl-site-header__language-link-label" lang="fr">français</span></a></li><li class="ecl-site-header__language-item"><a
+  href="https://digital-strategy.ec.europa.eu/ga/faqs/transparency-obligations-under-article-50-ai-act"
+  class="ecl-link ecl-link--standalone ecl-site-header__language-link"
+   hreflang="ga"
+><span class="ecl-site-header__language-link-code">ga</span><span class="ecl-site-header__language-link-label" lang="ga">Gaeilge</span></a></li><li class="ecl-site-header__language-item"><a
+  href="https://digital-strategy.ec.europa.eu/hr/faqs/transparency-obligations-under-article-50-ai-act"
+  class="ecl-link ecl-link--standalone ecl-site-header__language-link"
+   hreflang="hr"
+><span class="ecl-site-header__language-link-code">hr</span><span class="ecl-site-header__language-link-label" lang="hr">hrvatski</span></a></li><li class="ecl-site-header__language-item"><a
+  href="https://digital-strategy.ec.europa.eu/it/faqs/transparency-obligations-under-article-50-ai-act"
+  class="ecl-link ecl-link--standalone ecl-site-header__language-link"
+   hreflang="it"
+><span class="ecl-site-header__language-link-code">it</span><span class="ecl-site-header__language-link-label" lang="it">italiano</span></a></li><li class="ecl-site-header__language-item"><a
+  href="https://digital-strategy.ec.europa.eu/lv/faqs/transparency-obligations-under-article-50-ai-act"
+  class="ecl-link ecl-link--standalone ecl-site-header__language-link"
+   hreflang="lv"
+><span class="ecl-site-header__language-link-code">lv</span><span class="ecl-site-header__language-link-label" lang="lv">latviešu</span></a></li><li class="ecl-site-header__language-item"><a
+  href="https://digital-strategy.ec.europa.eu/lt/faqs/transparency-obligations-under-article-50-ai-act"
+  class="ecl-link ecl-link--standalone ecl-site-header__language-link"
+   hreflang="lt"
+><span class="ecl-site-header__language-link-code">lt</span><span class="ecl-site-header__language-link-label" lang="lt">lietuvių</span></a></li><li class="ecl-site-header__language-item"><a
+  href="https://digital-strategy.ec.europa.eu/hu/faqs/transparency-obligations-under-article-50-ai-act"
+  class="ecl-link ecl-link--standalone ecl-site-header__language-link"
+   hreflang="hu"
+><span class="ecl-site-header__language-link-code">hu</span><span class="ecl-site-header__language-link-label" lang="hu">magyar</span></a></li><li class="ecl-site-header__language-item"><a
+  href="https://digital-strategy.ec.europa.eu/mt/faqs/transparency-obligations-under-article-50-ai-act"
+  class="ecl-link ecl-link--standalone ecl-site-header__language-link"
+   hreflang="mt"
+><span class="ecl-site-header__language-link-code">mt</span><span class="ecl-site-header__language-link-label" lang="mt">Malti</span></a></li><li class="ecl-site-header__language-item"><a
+  href="https://digital-strategy.ec.europa.eu/nl/faqs/transparency-obligations-under-article-50-ai-act"
+  class="ecl-link ecl-link--standalone ecl-site-header__language-link"
+   hreflang="nl"
+><span class="ecl-site-header__language-link-code">nl</span><span class="ecl-site-header__language-link-label" lang="nl">Nederlands</span></a></li><li class="ecl-site-header__language-item"><a
+  href="https://digital-strategy.ec.europa.eu/pl/faqs/transparency-obligations-under-article-50-ai-act"
+  class="ecl-link ecl-link--standalone ecl-site-header__language-link"
+   hreflang="pl"
+><span class="ecl-site-header__language-link-code">pl</span><span class="ecl-site-header__language-link-label" lang="pl">polski</span></a></li><li class="ecl-site-header__language-item"><a
+  href="https://digital-strategy.ec.europa.eu/pt/faqs/transparency-obligations-under-article-50-ai-act"
+  class="ecl-link ecl-link--standalone ecl-site-header__language-link"
+   hreflang="pt"
+><span class="ecl-site-header__language-link-code">pt</span><span class="ecl-site-header__language-link-label" lang="pt">português</span></a></li><li class="ecl-site-header__language-item"><a
+  href="https://digital-strategy.ec.europa.eu/ro/faqs/transparency-obligations-under-article-50-ai-act"
+  class="ecl-link ecl-link--standalone ecl-site-header__language-link"
+   hreflang="ro"
+><span class="ecl-site-header__language-link-code">ro</span><span class="ecl-site-header__language-link-label" lang="ro">română</span></a></li><li class="ecl-site-header__language-item"><a
+  href="https://digital-strategy.ec.europa.eu/sk/faqs/transparency-obligations-under-article-50-ai-act"
+  class="ecl-link ecl-link--standalone ecl-site-header__language-link"
+   hreflang="sk"
+><span class="ecl-site-header__language-link-code">sk</span><span class="ecl-site-header__language-link-label" lang="sk">slovenčina</span></a></li><li class="ecl-site-header__language-item"><a
+  href="https://digital-strategy.ec.europa.eu/sl/faqs/transparency-obligations-under-article-50-ai-act"
+  class="ecl-link ecl-link--standalone ecl-site-header__language-link"
+   hreflang="sl"
+><span class="ecl-site-header__language-link-code">sl</span><span class="ecl-site-header__language-link-label" lang="sl">slovenščina</span></a></li><li class="ecl-site-header__language-item"><a
+  href="https://digital-strategy.ec.europa.eu/fi/faqs/transparency-obligations-under-article-50-ai-act"
+  class="ecl-link ecl-link--standalone ecl-site-header__language-link"
+   hreflang="fi"
+><span class="ecl-site-header__language-link-code">fi</span><span class="ecl-site-header__language-link-label" lang="fi">suomi</span></a></li><li class="ecl-site-header__language-item"><a
+  href="https://digital-strategy.ec.europa.eu/sv/faqs/transparency-obligations-under-article-50-ai-act"
+  class="ecl-link ecl-link--standalone ecl-site-header__language-link"
+   hreflang="sv"
+><span class="ecl-site-header__language-link-code">sv</span><span class="ecl-site-header__language-link-label" lang="sv">svenska</span></a></li></ul></div></div></div></div>
+  </div>
+<div class="views-exposed-form" data-drupal-selector="views-exposed-form-cnt-search-page-solr-search" id="block-exposed-form-cnt-search-page-solr-search">
+  
+    
+      <form
+  class="ecl-search-form ecl-site-header-standardised__search"
+  role="search"
+   action="&#x2F;en&#x2F;search" method="get" id="views-exposed-form-cnt-search-page-solr-search" accept-charset="UTF-8" data-ecl-search-form
+><div class="ecl-form-group"><label
+                  for="edit-search"
+            id="edit-search-label"
+          class="ecl-form-label ecl-search-form__label"
+    >Search</label><input
+      id="edit-search"
+      class="ecl-text-input ecl-text-input--m ecl-search-form__text-input  ecl-search-form__text-input"
+      name="search"
+        type="search"
+             value=""
+  ></div><button
+  class="ecl-button ecl-button--ghost ecl-search-form__button ecl-button--icon-only"
+  type="submit"
+  
+><span class="ecl-button__container"><span 
+  class="wt-icon--search ecl-icon ecl-icon--m ecl-button__icon ecl-icon--search"
+  aria-hidden="true"
+   data-ecl-icon></span><span class="ecl-button__label" data-ecl-label="true">Search</span></span></button></form>
+  </div>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </div>
+        <div class="ecl-site-header__banner">
+      <div class="ecl-container">
+                  <div class="ecl-site-header__site-name">Shaping Europe’s digital future</div>
+                      </div>
+    </div>
+        
+      
+                
+                
+                
+                
+                
+                
+                
+                
+          
+      <nav
+  class="ecl-menu"
+  data-ecl-menu
+  data-ecl-menu-max-lines="2"
+  data-ecl-auto-init="Menu"
+      data-ecl-menu-label-open="Menu"
+        data-ecl-menu-label-close="Close"
+    role="navigation" aria-label="Site&#x20;navigation"
+><div class="ecl-menu__overlay"></div><div class="ecl-container ecl-menu__container"><button
+  class="ecl-button ecl-button--tertiary ecl-button--neutral ecl-menu__open ecl-button--icon-only"
+  type="button"
+   data-ecl-menu-open aria-expanded="false"
+><span class="ecl-button__container"><span 
+  class="wt-icon--hamburger ecl-icon ecl-icon--m ecl-button__icon ecl-icon--hamburger"
+  aria-hidden="true"
+   data-ecl-icon></span><span 
+  class="wt-icon--close ecl-icon ecl-icon--m ecl-button__icon ecl-icon--close"
+  aria-hidden="true"
+   data-ecl-icon></span><span class="ecl-button__label" data-ecl-label="true">Menu</span></span></button><section class="ecl-menu__inner" data-ecl-menu-inner aria-label="Menu"><header class="ecl-menu__inner-header"><button
+  class="ecl-button ecl-button--tertiary ecl-menu__close ecl-button--icon-only"
+  type="submit"
+   data-ecl-menu-close
+><span class="ecl-button__container"><span class="ecl-button__label" data-ecl-label="true">Close</span><span 
+  class="wt-icon--close ecl-icon ecl-icon--m ecl-button__icon ecl-icon--close"
+  aria-hidden="true"
+   data-ecl-icon></span></span></button><div class="ecl-menu__title">Menu</div><button
+  class="ecl-button ecl-button--tertiary ecl-menu__back"
+  type="submit"
+   data-ecl-menu-back
+><span class="ecl-button__container"><span 
+  class="wt-icon--corner-arrow ecl-icon ecl-icon--xs ecl-icon--rotate-270 ecl-button__icon ecl-icon--corner-arrow"
+  aria-hidden="true"
+   data-ecl-icon></span><span class="ecl-button__label" data-ecl-label="true">Back</span></span></button></header><button
+  class="ecl-button ecl-button--tertiary ecl-menu__item ecl-menu__items-previous ecl-button--icon-only"
+  type="button"
+   data-ecl-menu-items-previous tabindex="-1"
+><span class="ecl-button__container"><span 
+  class="wt-icon--corner-arrow ecl-icon ecl-icon--s ecl-icon--rotate-270 ecl-button__icon ecl-icon--corner-arrow"
+  aria-hidden="true"
+   data-ecl-icon></span><span class="ecl-button__label" data-ecl-label="true">Previous items</span></span></button><button
+  class="ecl-button ecl-button--tertiary ecl-menu__item ecl-menu__items-next ecl-button--icon-only"
+  type="button"
+   data-ecl-menu-items-next tabindex="-1"
+><span class="ecl-button__container"><span 
+  class="wt-icon--corner-arrow ecl-icon ecl-icon--s ecl-icon--rotate-90 ecl-button__icon ecl-icon--corner-arrow"
+  aria-hidden="true"
+   data-ecl-icon></span><span class="ecl-button__label" data-ecl-label="true">Next items</span></span></button><ul class="ecl-menu__list" data-ecl-menu-list><li class="ecl-menu__item" data-ecl-menu-item id="ecl-menu-item-ecl-menu-1707110093-0"><a
+  href="/en/shaping-europes-digital-future"
+  class="ecl-link ecl-link--standalone ecl-menu__link"
+   data-ecl-menu-link id="ecl-menu-item-ecl-menu-1707110093-0-link"
+>Home</a></li><li class="ecl-menu__item" data-ecl-menu-item id="ecl-menu-item-ecl-menu-1707110093-1"><a
+  href="/en/policies"
+  class="ecl-link ecl-link--standalone ecl-menu__link"
+   data-ecl-menu-link id="ecl-menu-item-ecl-menu-1707110093-1-link"
+>Policies</a></li><li class="ecl-menu__item" data-ecl-menu-item id="ecl-menu-item-ecl-menu-1707110093-2"><a
+  href="/en/activities"
+  class="ecl-link ecl-link--standalone ecl-menu__link"
+   data-ecl-menu-link id="ecl-menu-item-ecl-menu-1707110093-2-link"
+>Activities</a></li><li class="ecl-menu__item" data-ecl-menu-item id="ecl-menu-item-ecl-menu-1707110093-3"><a
+  href="/en/news"
+  class="ecl-link ecl-link--standalone ecl-menu__link"
+   data-ecl-menu-link id="ecl-menu-item-ecl-menu-1707110093-3-link"
+>News</a></li><li class="ecl-menu__item" data-ecl-menu-item id="ecl-menu-item-ecl-menu-1707110093-4"><a
+  href="/en/library"
+  class="ecl-link ecl-link--standalone ecl-menu__link"
+   data-ecl-menu-link id="ecl-menu-item-ecl-menu-1707110093-4-link"
+>Library</a></li><li class="ecl-menu__item" data-ecl-menu-item id="ecl-menu-item-ecl-menu-1707110093-5"><a
+  href="/en/funding"
+  class="ecl-link ecl-link--standalone ecl-menu__link"
+   data-ecl-menu-link id="ecl-menu-item-ecl-menu-1707110093-5-link"
+>Funding</a></li><li class="ecl-menu__item" data-ecl-menu-item id="ecl-menu-item-ecl-menu-1707110093-6"><a
+  href="/en/events"
+  class="ecl-link ecl-link--standalone ecl-menu__link"
+   data-ecl-menu-link id="ecl-menu-item-ecl-menu-1707110093-6-link"
+>Calendar</a></li><li class="ecl-menu__item" data-ecl-menu-item id="ecl-menu-item-ecl-menu-1707110093-7"><a
+  href="/en/consultations"
+  class="ecl-link ecl-link--standalone ecl-menu__link"
+   data-ecl-menu-link id="ecl-menu-item-ecl-menu-1707110093-7-link"
+>Consultations</a></li><li class="ecl-menu__item" data-ecl-menu-item id="ecl-menu-item-ecl-menu-1707110093-8"><a
+  href="/en/policies/ai-office"
+  class="ecl-link ecl-link--standalone ecl-menu__link"
+   data-ecl-menu-link id="ecl-menu-item-ecl-menu-1707110093-8-link"
+>AI Office</a></li></ul></section></div></nav>
+
+
+
+
+</header>
+
+        <div id="block-cnt-theme-pageheader">
+  
+    
+      
+            
+  
+
+
+<div
+  class="ecl-page-header"
+  
+><div class="ecl-page-header__container"><div class="ecl-container"><nav
+  class="ecl-breadcrumb ecl-page-header__breadcrumb"
+   aria-label="You&#x20;are&#x20;here&#x3A;" aria-label="" data-ecl-breadcrumb="true"
+><ol class="ecl-breadcrumb__container"><li class="ecl-breadcrumb__segment" data-ecl-breadcrumb-item="static"><a
+  href="/en"
+  class="ecl-link ecl-breadcrumb__link"
+  
+>Home</a><span 
+  class="wt-icon--corner-arrow ecl-icon ecl-icon--fluid ecl-breadcrumb__icon ecl-icon--corner-arrow"
+  aria-hidden="true"
+   role="presentation"></span></li><li class="ecl-breadcrumb__segment" data-ecl-breadcrumb-item="static"><a
+  href="/en/faqs"
+  class="ecl-link ecl-breadcrumb__link"
+  
+>FAQs</a><span 
+  class="wt-icon--corner-arrow ecl-icon ecl-icon--fluid ecl-breadcrumb__icon ecl-icon--corner-arrow"
+  aria-hidden="true"
+   role="presentation"></span></li><li class="ecl-breadcrumb__segment ecl-breadcrumb__current-page" data-ecl-breadcrumb-item="static" aria-current="page"><span>Transparency obligations under Article 50 of the AI Act</span></li></ol></nav><h1 class="ecl-page-header__title"><span>Transparency obligations under Article 50 of the AI Act</span></h1></div></div></div>
+  </div>
+
+
+  
+<main class="ecl-u-pb-xl" id="main-content">
+  <div class="ecl-container">
+    <div class="ecl-row">
+      <div class="ecl-col-s-12">
+          <div>
+    <div data-drupal-messages-fallback class="hidden"></div><div id="block-machinetranslationmessage" class="ecl-u-mb-l">
+  
+    
+      
+  </div>
+<div id="block-cnt-theme-main-page-content" class="ecl-u-mb-l">
+  
+    
+      <article>
+
+  
+    
+
+  
+  <div>
+    
+  <div  class="ecl-row">
+          <div  class="ecl-col-12">
+                    
+<div class="ecl-u-mb-xl">
+    <p class="ecl-u-type-paragraph-l">This page provides answers to frequently asked questions related to concepts and obligations clarified in the Commission Guidelines on Article 50 of the AI Act. </p>
+  </div>
+
+  
+      </div>
+      </div>
+  <div class="cnt-main-body-full ecl-u-type-m">
+    <div class="ecl-row" data-ecl-inpage-navigation-container="true">
+              <div class="ecl-col-l-3 ecl-u-z-navigation">
+              
+        </div>
+                    <div class="ecl-col-12 ecl-col-l-9">
+          <main>                  <div>
+              
+<div
+  class="ecl-accordion"
+  data-ecl-auto-init="Accordion"
+  
+><details
+        class="ecl-accordion__item is-first"
+                ><summary class="ecl-accordion__toggle">Who is a provider of an AI system and what transparency obligations apply to them?             <span 
+  class="wt-icon--plus ecl-icon ecl-icon--s ecl-accordion__toggle-icon ecl-icon--plus"
+  aria-hidden="true"
+  ></span><span 
+  class="wt-icon--minus ecl-icon ecl-icon--s ecl-accordion__toggle-icon ecl-icon--minus"
+  aria-hidden="true"
+  ></span></summary><div class="ecl-accordion__content"><div class="ecl"><div><p><span lang="EN-IE">According to </span><a href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-3"><span lang="EN-IE">Article 3(3) of the AI Act</span></a><span lang="EN-IE">, providers of AI systems are natural or legal persons, public authorities, agencies or other bodies that develop AI systems, or have them developed, and place them on the EU market or put them into service under their own name or trademark. This is irrespective of whether those providers are established or located within the EU or in a third country.&nbsp;</span><span>&nbsp;</span></p><p><span lang="EN-IE">Providers of AI systems established or located outside the EU are also subject to the provisions of the AI Act if the output of their AI system is used in the EU.&nbsp;</span><span>&nbsp;</span></p><p><span lang="EN-IE">Providers must ensure that their AI systems meet the relevant transparency obligations laid down in </span><a href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50"><span lang="EN-IE">Articles 50(1), (2) and (5) of the AI Act</span></a><span lang="EN-IE"> before placing those systems on the market or putting them into service.&nbsp;</span><span>&nbsp;</span></p><p><span lang="EN-IE">According to Article 50(2) of the AI Act, providers must design and develop AI systems that interact directly with natural persons — such as chatbots, AI agents, and avatars — to ensure that people are informed they are interacting with AI. Providers must also ensure that the outputs of their generative AI systems are marked with effective, reliable, robust and interoperable machine-readable marks that enable the outputs to be detected as generated or manipulated by AI systems.</span></p></div></div></div></details></div>
+<div class="node_view"></div>
+      </div>
+
+      <div>
+              
+<div
+  class="ecl-accordion"
+  data-ecl-auto-init="Accordion"
+  
+><details
+        class="ecl-accordion__item is-first"
+                ><summary class="ecl-accordion__toggle">Who is a deployer and what transparency obligations apply to them?             <span 
+  class="wt-icon--plus ecl-icon ecl-icon--s ecl-accordion__toggle-icon ecl-icon--plus"
+  aria-hidden="true"
+  ></span><span 
+  class="wt-icon--minus ecl-icon ecl-icon--s ecl-accordion__toggle-icon ecl-icon--minus"
+  aria-hidden="true"
+  ></span></summary><div class="ecl-accordion__content"><div class="ecl"><div><p><span lang="EN-IE">Deployers of AI systems are natural or legal persons, public authorities, agencies or other bodies using AI systems under their authority, excluding use for personal, non-professional activities.&nbsp;</span><span>&nbsp;</span></p><p><span lang="EN-GB">When a natural person uses </span><span lang="EN-IE">an AI system in their personal capacity — for example, to generate deepfakes and disseminate them on social media — this is considered a personal activity. Such use is excluded from the scope of the AI Act. However, if it is</span><span lang="EN-GB"> an activity through which they gain an economic benefit on a regular basis (or are otherwise involved in a&nbsp;business, trade, occupational or freelance activity) this is considered a ‘professional’ activity. In this case, the natural person is considered to be a deployer of that AI system.&nbsp;</span><span>&nbsp;</span></p><p><span lang="EN-IE">Where the deployer of an AI system is a legal person under whose authority the system is used (e.g. an advertising company), the individual employees that act under the instructions and under the control of that legal person (e.g. digital animators, web designers, content creators, journalists) should not be considered as separate deployers of that system. A legal person remains a deployer even if third parties (e.g. contractors, freelancers) are involved in the operation of the system on its behalf and under its responsibility and control.</span><span>&nbsp;</span></p><p><span lang="EN-IE">Under the AI Act, deployers must ensure that they inform people when they use emotion recognition or biometric categorisation systems (</span><a href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50"><span lang="EN-IE">Articles 50(3) of the AI Act</span></a><span lang="EN-IE">) and clearly label deepfakes and AI-generated or manipulated text published on matters of public interest without human review or editorial control (Article 50(4) of the AI Act).</span><span>&nbsp;</span></p></div></div></div></details></div>
+<div class="node_view"></div>
+      </div>
+
+      <div>
+              
+<div
+  class="ecl-accordion"
+  data-ecl-auto-init="Accordion"
+  
+><details
+        class="ecl-accordion__item is-first"
+                ><summary class="ecl-accordion__toggle">When do providers of AI systems have to inform people they are interacting with an AI system?            <span 
+  class="wt-icon--plus ecl-icon ecl-icon--s ecl-accordion__toggle-icon ecl-icon--plus"
+  aria-hidden="true"
+  ></span><span 
+  class="wt-icon--minus ecl-icon ecl-icon--s ecl-accordion__toggle-icon ecl-icon--minus"
+  aria-hidden="true"
+  ></span></summary><div class="ecl-accordion__content"><div class="ecl"><div><p><span lang="EN-IE">According to </span><a href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50"><span lang="EN-IE">Article 50(1) of the AI Act</span></a><span lang="EN-IE">, Providers of AI systems that directly interact with people must design and develop those systems in such a way that the individuals concerned are informed that they are interacting with an AI system, unless this is obvious.&nbsp;</span><span>&nbsp;</span></p><p><span lang="EN-IE">The </span><a href="https://digital-strategy.ec.europa.eu/en/policies/guidelines-transparency-ai-generated-content"><span lang="EN-IE">Guidelines on Transparency of AI-Generated Content</span></a><span lang="EN-IE"> clarify the 4 cumulative criteria&nbsp;in which this obligation applies:</span><span>&nbsp;</span></p><ol><li><span lang="EN-IE">the system must qualify as an AI system;&nbsp;</span><span>&nbsp;</span></li></ol></div><div><ol start="2"><li><span lang="EN-IE">it must be designed for a genuine two-way exchange with people, rather than merely collecting data or providing automated responses;&nbsp;</span><span>&nbsp;</span></li></ol></div><div><ol start="3"><li><span lang="EN-IE">the interaction must be direct, meaning the AI itself communicates with the person rather than through a human intermediary;&nbsp;</span><span>&nbsp;</span></li></ol></div><div><ol start="4"><li><span lang="EN-IE">the interaction must be with natural persons, whether consumers, professionals or other users.&nbsp;</span><span>&nbsp;</span></li></ol><p><span lang="EN-IE">AI systems operating solely in the background, through machine-to-machine communication, or without direct contact with people, fall outside the scope of this obligation.</span></p><p><span lang="EN-IE">People must be notified when they are interacting with an AI system from the start of the first interaction in a clear and distinguishable manner and in accordance with accessibility requirements.</span></p><p><span lang="EN-IE">This will&nbsp;enable them to take informed decisions regarding their interaction with the system and calibrate their trust in the content accordingly.</span></p><p><span lang="EN-IE">People do not need to be informed when it is obvious they are interacting with an AI system. In practice,&nbsp;to assess how obvious an AI interaction is, a provider will have to identify an average person, who is reasonably well-informed, circumspect, and observant. Such person evaluates whether it is obvious&nbsp;that they are directly interacting with an AI system.</span></p><p><span lang="EN-IE">The guidelines provide further guidance and practical examples on how to apply this exception. It should be interpreted in a restrictive manner, given that it deprives people of transparency.</span><span>&nbsp;</span></p></div></div></div></details></div>
+<div class="node_view"></div>
+      </div>
+
+      <div>
+              
+<div
+  class="ecl-accordion"
+  data-ecl-auto-init="Accordion"
+  
+><details
+        class="ecl-accordion__item is-first"
+                ><summary class="ecl-accordion__toggle">When do providers of AI systems have to mark the outputs of their generative AI systems and ensure their detectability?             <span 
+  class="wt-icon--plus ecl-icon ecl-icon--s ecl-accordion__toggle-icon ecl-icon--plus"
+  aria-hidden="true"
+  ></span><span 
+  class="wt-icon--minus ecl-icon ecl-icon--s ecl-accordion__toggle-icon ecl-icon--minus"
+  aria-hidden="true"
+  ></span></summary><div class="ecl-accordion__content"><div class="ecl"><div><p><span lang="EN-IE">According to </span><a href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50"><span lang="EN-IE">Article 50(2) of the AI Act</span></a><span lang="EN-IE">, providers of AI systems, including general-purpose AI systems, generating synthetic audio, image, video or text content, must ensure that AI-generated or manipulated content are marked in a machine-readable format and detectable as artificially generated or manipulated.</span><span>&nbsp;</span></p><p><span lang="EN-IE">The </span><a href="https://digital-strategy.ec.europa.eu/en/policies/guidelines-transparency-ai-generated-content"><span lang="EN-IE">Guidelines on Transparency of AI-Generated Content</span></a><span lang="EN-IE"> clarify that certain outputs fall outside the scope of the obligations, such as:</span><span>&nbsp;</span></p><ul><li><span lang="EN-IE">a short sequence of numbers, symbols or letters,&nbsp;</span><span>&nbsp;</span></li></ul></div><div><ul><li><span lang="EN-IE">source code</span><span>&nbsp;</span></li></ul></div><div><ul><li><span lang="EN-IE">outputs of an AI system intended to be exclusively communicated from machine-to-machine and processed automatically without any exposure to humans, or&nbsp;</span><span>&nbsp;</span></li></ul></div><div><ul><li><span lang="EN-IE">outputs that are only used in closed loop industrial and product development environments, for example for film production, unless they are the final output.</span><span>&nbsp;</span></li></ul><p><span lang="EN-IE">The obligation to mark AI-generated or manipulated synthetic content does not apply when the AI system performs an assistive function for standard editing. The guidelines provide a diverse set of practical examples of what can be considered standard editing and what goes beyond.</span><span>&nbsp;</span></p><p><span lang="EN-IE">To ensure Article 50(2) of the AI Act is implemented in a proportionate manner, a narrow exemption of the marking obligation is envisaged for AI systems that generate outputs used in “business to business” or “industrial contexts” (provided the conditions specified in the guidelines are met).</span><span>&nbsp;</span></p><p><span lang="EN-IE">The specificities and limitations of various types of content, the costs of implementation and the generally acknowledged state of the art must also be considered. The guidelines further explain these concepts.</span></p><p><span lang="EN-IE">The </span><a href="https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content#ecl-inpage-transparency-of-ai-generated-content"><span lang="EN-IE">Code of Practice on Transparency of AI-generated content</span></a><span lang="EN-IE"> sets out measures on which providers who adhere to the Code can rely to demonstrate compliance with these marking and detection obligations in a legally certain and predictable manner, regardless of their place of establishment, operation or competent market surveillance authority.</span><span>&nbsp;</span></p></div></div></div></details></div>
+<div class="node_view"></div>
+      </div>
+
+      <div>
+              
+<div
+  class="ecl-accordion"
+  data-ecl-auto-init="Accordion"
+  
+><details
+        class="ecl-accordion__item is-first"
+                ><summary class="ecl-accordion__toggle">When must deployers of AI-based emotion recognition or biometric categorisation systems inform natural persons exposed to those systems?            <span 
+  class="wt-icon--plus ecl-icon ecl-icon--s ecl-accordion__toggle-icon ecl-icon--plus"
+  aria-hidden="true"
+  ></span><span 
+  class="wt-icon--minus ecl-icon ecl-icon--s ecl-accordion__toggle-icon ecl-icon--minus"
+  aria-hidden="true"
+  ></span></summary><div class="ecl-accordion__content"><div class="ecl"><div><p><span lang="EN-IE">According to </span><a href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50"><span lang="EN-IE">Article 50(3) of the AI Act</span></a><span lang="EN-IE">, deployers of emotion recognition systems and biometric categorisation systems must inform natural persons who are exposed to those systems of their operation to protect their privacy. This does not entail providing information regarding e.g. the purpose of the system’s operation.</span><span>&nbsp;</span></p><p><span lang="EN-IE">The obligation applies regardless of whether the persons are exposed to such systems in real-time or they are operated ex-post.</span><span>&nbsp;</span></p></div></div></div></details></div>
+<div class="node_view"></div>
+      </div>
+
+      <div>
+              
+<div
+  class="ecl-accordion"
+  data-ecl-auto-init="Accordion"
+  
+><details
+        class="ecl-accordion__item is-first"
+                ><summary class="ecl-accordion__toggle">What is a ‘deepfake’ and when do they need to be labelled?             <span 
+  class="wt-icon--plus ecl-icon ecl-icon--s ecl-accordion__toggle-icon ecl-icon--plus"
+  aria-hidden="true"
+  ></span><span 
+  class="wt-icon--minus ecl-icon ecl-icon--s ecl-accordion__toggle-icon ecl-icon--minus"
+  aria-hidden="true"
+  ></span></summary><div class="ecl-accordion__content"><div class="ecl"><div><p><span lang="EN-IE">Deepfakes are defined in </span><a href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-3"><span lang="EN-IE">Article 3(60) of the AI Act</span></a><span lang="EN-IE"> as AI-generated or manipulated image, audio or video content that resembles existing persons, objects, places, entities or events and would falsely appear to a person to be authentic or truthful.</span><span>&nbsp;</span></p><p><span lang="EN-IE">Three cumulative criteria need to be met for content to constitute a ‘deepfake’:&nbsp;</span><span>&nbsp;</span></p><ol><li><span lang="EN-IE">Resemblance: a high level of similarity between the deepfake content and the simulated subject.</span><span>&nbsp;</span></li></ol></div><div><ol start="2"><li><span lang="EN-IE">Existing: simulated persons, objects, places, entities or events need to resemble someone or something that exists, can plausibly exist or could have plausibly existed in reality.</span><span>&nbsp;</span></li></ol></div><div><ol start="3"><li><span lang="EN-IE">False appearance to be authentic or truthful: this relates to the essential characteristic of deepfake content and its capacity to potentially deceive or mislead a person regarding the content’s authenticity or truthfulness</span><span>&nbsp;</span></li></ol><p><span lang="EN-IE">For the assessment of the last criterion above, the </span><a href="https://digital-strategy.ec.europa.eu/en/policies/guidelines-transparency-ai-generated-content"><span lang="EN-IE">Guidelines on Transparency of AI-Generated Content</span></a><span lang="EN-IE"> allow stakeholders to take into account:</span><span>&nbsp;</span></p><ul><li><span lang="EN-IE">the level of resemblance,&nbsp;</span><span>&nbsp;</span></li></ul></div><div><ul><li><span lang="EN-IE">the potential substantive message of the content</span><span>&nbsp;</span></li></ul></div><div><ul><li><span lang="EN-IE">the intended and foreseeable deployment contexts,</span><span>&nbsp;</span></li></ul></div><div><ul><li><span lang="EN-IE">the intended and reasonably foreseeable audience composition and their expectations.&nbsp;</span><span>&nbsp;</span></li></ul><p><span lang="EN-IE">This enables deployers to duly consider the specific context in which they are operating and the audience to which their content will be exposed. If the intended audience within a specific deployment context does not expect the content to be authentic or truthful, the AI-generated or manipulated content may not falsely appear to be authentic or truthful. For example, the AI-generation or manipulation of background scenes, special effects, or technical pre- and post-processing as part of standard movie production processes are not likely to make content falsely appear to the audience to be authentic or truthful.</span><span>&nbsp;</span></p><p><span lang="EN-IE">Deployers must disclose deepfake content to a natural person upon first exposure at the latest. This disclosure should happen in a clear and distinguishable manner. It should be understandable and perceivable by natural persons (e.g. with visible or audible labels), without need for any specific technical tools or performing dedicated actions. Therefore, deployers cannot simply rely on the machine-readable marking embedded in the content by the provider under </span><a href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50"><span lang="EN-IE">Article 50(2) of the AI Act</span></a><span lang="EN-IE"> to fulfil their disclosure obligation.</span><span>&nbsp;</span></p><p><span lang="EN-IE">Some deepfakes are part of evidently artistic, creative, satirical, fictional or analogous works or programmes. For these, the transparency obligation is limited to the disclosure of the deepfake content in an appropriate manner that does not hamper the display or enjoyment of the work.</span><span>&nbsp;</span></p></div></div></div></details></div>
+<div class="node_view"></div>
+      </div>
+
+      <div>
+              
+<div
+  class="ecl-accordion"
+  data-ecl-auto-init="Accordion"
+  
+><details
+        class="ecl-accordion__item is-first"
+                ><summary class="ecl-accordion__toggle">What AI-generated or manipulated text must deployers clearly label?             <span 
+  class="wt-icon--plus ecl-icon ecl-icon--s ecl-accordion__toggle-icon ecl-icon--plus"
+  aria-hidden="true"
+  ></span><span 
+  class="wt-icon--minus ecl-icon ecl-icon--s ecl-accordion__toggle-icon ecl-icon--minus"
+  aria-hidden="true"
+  ></span></summary><div class="ecl-accordion__content"><div class="ecl"><div><p><span lang="EN-IE">According to </span><a href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50"><span lang="EN-IE">Article 50(4) of the AI Act</span></a><span lang="EN-IE">, deployers of generative AI systems must clearly label AI-generated or manipulated text published with the purpose of informing the public on matters of public interest. For text to fall within this obligation, 3 criteria must be fulfilled. The text needs to be:</span></p><ul><li class="ck-list-marker-bold"><span lang="EN-GB"><strong>Published</strong></span></li></ul></div><div><ul><li><span lang="EN-GB"><strong>Informative to the public</strong></span><span>&nbsp;</span></li></ul></div><div><ul><li class="ck-list-marker-bold"><span lang="EN-GB"><strong>On matters of public interest, such as:</strong></span><ul><li><span lang="EN-GB">politics and democratic processes,</span></li><li><span lang="EN-GB">public administration and services,</span></li><li><span lang="EN-GB">administration of justice and law enforcement,</span></li><li><span lang="EN-GB">fundamental rights,&nbsp;</span></li><li><span lang="EN-GB">public security,</span></li><li><span lang="EN-GB">public health,</span></li><li><span lang="EN-GB">environmental protection,</span></li><li><span lang="EN-GB">consumer safety and any economic,</span><span>&nbsp;</span></li><li><span lang="EN-GB">financial, political, scientific, or cultural developments that may be relevant subject of public debate.</span></li></ul></li></ul></div></div></div></details></div>
+<div class="node_view"></div>
+      </div>
+
+      <div>
+              
+<div
+  class="ecl-accordion"
+  data-ecl-auto-init="Accordion"
+  
+><details
+        class="ecl-accordion__item is-first"
+                ><summary class="ecl-accordion__toggle">What constitutes the human review or editorial control/responsibility required to qualify for an exemption from the labelling obligation?             <span 
+  class="wt-icon--plus ecl-icon ecl-icon--s ecl-accordion__toggle-icon ecl-icon--plus"
+  aria-hidden="true"
+  ></span><span 
+  class="wt-icon--minus ecl-icon ecl-icon--s ecl-accordion__toggle-icon ecl-icon--minus"
+  aria-hidden="true"
+  ></span></summary><div class="ecl-accordion__content"><div class="ecl"><p>Published text that has undergone human review or editorial control – does not need to be labelled.</p><p>Human review refers to the deliberate examination of the substance of the content by one or more natural persons possessing relevant knowledge and professional judgement pertaining to the subject matter under scrutiny (e.g. academic peer review or professional validation chains). Editorial control refers to the control exercised in practice by a responsible editorial entity (e.g. an editor-in-chief) over the content having the authority to approve, alter or reject the substance of the text based on substantive grounds (incl. factchecking of information and ensuring the trustworthiness of sources).</p><p>Superficial, solely formal, or procedural checks (e.g. spell-checking or grammatical correction) are not considered to be human review or editorial control.</p><p>Editorial responsibility means that a person must hold the ultimate legal responsibility over the publication of the content, including the human review or editorial control.&nbsp;</p></div></div></details></div>
+<div class="node_view"></div>
+      </div>
+
+      <div>
+              
+<div
+  class="ecl-accordion"
+  data-ecl-auto-init="Accordion"
+  
+><details
+        class="ecl-accordion__item is-first"
+                ><summary class="ecl-accordion__toggle">How can providers and deployers demonstrate compliance and what are the effects of the Code of Practice on transparency of AI-generated content?             <span 
+  class="wt-icon--plus ecl-icon ecl-icon--s ecl-accordion__toggle-icon ecl-icon--plus"
+  aria-hidden="true"
+  ></span><span 
+  class="wt-icon--minus ecl-icon ecl-icon--s ecl-accordion__toggle-icon ecl-icon--minus"
+  aria-hidden="true"
+  ></span></summary><div class="ecl-accordion__content"><div class="ecl"><div><p><span lang="EN-IE">The </span><a href="https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content#ecl-inpage-transparency-of-ai-generated-content"><span lang="EN-IE">Code of Practice on Transparency of AI-generated content </span></a><span lang="EN-IE">provides a voluntary practical tool to help providers and deployers of generative AI systems demonstrate compliance with the marking and labelling obligations under</span><a href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50"><span lang="EN-IE"> Article 50(2), (4) and (5) of the AI Act</span></a><span lang="EN-IE">. The code has been assessed as adequate by both the Commission and the AI Board. It allows signatories to benefit from legal certainty, predictability, and trust as they may rely on an approved code that they have signed, regardless of their place of establishment, operation or competent supervisory authority.&nbsp;</span><span>&nbsp;</span></p><p><span lang="EN-IE">Providers and deployers of generative AI systems that decide not to adhere to the code will have to demonstrate compliance through alternative adequate means. They may be subject to more requests for information, since there is less transparency on how they comply with the transparency obligations of Article 50(2), (4) and (5) of the AI Act.&nbsp;</span><span>&nbsp;</span></p><p><span lang="EN-IE">For the other transparency obligations (e.g. those laid down in Article 50(1) and (3) of the AI Act), providers and deployers can determine adequate compliance measures themselves, while taking into account the </span><a href="https://digital-strategy.ec.europa.eu/en/policies/guidelines-transparency-ai-generated-content"><span lang="EN-IE">Guidelines on Transparency of AI-Generated Content</span></a><span>.&nbsp;</span></p></div></div></div></details></div>
+<div class="node_view"></div>
+      </div>
+
+      <div>
+              
+<div
+  class="ecl-accordion"
+  data-ecl-auto-init="Accordion"
+  
+><details
+        class="ecl-accordion__item is-first"
+                ><summary class="ecl-accordion__toggle">How does the Code of Practice on transparent generative AI systems interact with the recent Code of Practice on General-Purpose AI?             <span 
+  class="wt-icon--plus ecl-icon ecl-icon--s ecl-accordion__toggle-icon ecl-icon--plus"
+  aria-hidden="true"
+  ></span><span 
+  class="wt-icon--minus ecl-icon ecl-icon--s ecl-accordion__toggle-icon ecl-icon--minus"
+  aria-hidden="true"
+  ></span></summary><div class="ecl-accordion__content"><div class="ecl"><div><p><span lang="EN-IE">The transparency obligations laid down in </span><a href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50"><span lang="EN-IE">Article 50 of the AI Act</span></a><span lang="EN-IE"> are complementary to the transparency rules applicable to general-purpose AI models laid down in Articles 53 and 55 of the AI Act. The means to comply with the latter have been further detailed in the </span><a href="https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai"><span lang="EN-IE">Code of Practice for General-Purpose AI (GPAI)</span></a><span lang="EN-IE"> models and the Commission template for the summary of the content used for model training.</span><span>&nbsp;</span></p><p><span lang="EN-IE">Notably, the GPAI Code of Practice focuses on GPAI models and documentation and information to be provided to the AI Office, national competent authorities and downstream providers, and transparency of the input training data. The </span><a href="https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content"><span lang="EN-IE">Code of Practice on transparency of AI-generated content</span></a><span lang="EN-IE"> addresses marking techniques and transparency of the AI generated or manipulated outputs towards the persons exposed to them.</span><span>&nbsp;</span></p><p><span lang="EN-IE">The Code of Practice on transparency of AI-generated content targets transparency obligations at the system level, including, but not limited to, GPAI systems. Transparency techniques which can be implemented by providers of GPAI models to facilitate compliance by downstream AI system providers with the transparency obligations of Article 50 of the AI Act will also be considered in the context of this code.</span><span>&nbsp;</span></p></div></div></div></details></div>
+<div class="node_view"></div>
+      </div>
+
+      <div>
+              
+<div
+  class="ecl-accordion"
+  data-ecl-auto-init="Accordion"
+  
+><details
+        class="ecl-accordion__item is-first"
+                ><summary class="ecl-accordion__toggle">When does Article 50 of the AI Act start to apply and is there a grace period?             <span 
+  class="wt-icon--plus ecl-icon ecl-icon--s ecl-accordion__toggle-icon ecl-icon--plus"
+  aria-hidden="true"
+  ></span><span 
+  class="wt-icon--minus ecl-icon ecl-icon--s ecl-accordion__toggle-icon ecl-icon--minus"
+  aria-hidden="true"
+  ></span></summary><div class="ecl-accordion__content"><div class="ecl"><div><p><a href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50"><span lang="EN-IE">Article 50 of the AI Act</span></a><span lang="EN-IE"> applies as from 2 August 2026. From that date onwards, providers and deployers of AI systems must comply with the transparency obligations laid down in that provision. A</span><span lang="EN-US"> limited grace period is envisaged only for AI systems placed on the market before 2 August 2026 and only as regards the marking and detection obligation for AI-generated content (Article 50(2) of the AI Act). Providers of such systems must comply with those obligations only as from 2 December 2026.</span><span>&nbsp;</span></p><p><span lang="EN-US">Content generated prior to 2 August 2026 does not need to be labelled retroactively. Nonetheless, the Commission encourages relevant deployers to do so, where possible, since it contributes to the goals pursued by Article 50</span><span lang="EN-IE"> of the</span><span lang="EN-US"> AI Act.</span></p></div></div></div></details></div>
+<div class="node_view"></div>
+      </div>
+
+      <div>
+              
+<div
+  class="ecl-accordion"
+  data-ecl-auto-init="Accordion"
+  
+><details
+        class="ecl-accordion__item is-first"
+                ><summary class="ecl-accordion__toggle">Who will oversee the enforcement of Article 50 of the AI Act and have the power to impose fines?             <span 
+  class="wt-icon--plus ecl-icon ecl-icon--s ecl-accordion__toggle-icon ecl-icon--plus"
+  aria-hidden="true"
+  ></span><span 
+  class="wt-icon--minus ecl-icon ecl-icon--s ecl-accordion__toggle-icon ecl-icon--minus"
+  aria-hidden="true"
+  ></span></summary><div class="ecl-accordion__content"><div class="ecl"><div><p><span lang="EN-IE">Compliance with the rules will mainly be enforced by national competent market surveillance authorities. The AI Office has a limited role in monitoring and enforcement, since it is only competent for AI systems that are built on general-purpose AI models, if the same entity provides the system and the model, or if the AI system is integrated into a </span><a href="https://digital-strategy.ec.europa.eu/en/policies/dsa-vlops"><span lang="EN-IE">very large online search engine or very large online platform designated under the Digital Services Act</span></a><span lang="EN-IE">. The </span><a href="https://www.edps.europa.eu/_en"><span lang="EN-IE">European Data Protection Supervisor</span></a><span lang="EN-IE"> will enforce the rules vis-a-vis AI systems used by the EU institutions, bodies and agencies.</span><span>&nbsp;</span></p><p><span lang="EN-IE">Fines can reach up to 15 million euros or 3% of total worldwide turnover for the preceding financial year, while proportionality can be taken into account in the case of small and medium sized enterprises (SMEs) and small mid-cap companies (SMCs).</span><span>&nbsp;</span></p></div></div></div></details></div>
+<div class="node_view"></div>
+      </div>
+
+
+  </main>
+        </div>
+          </div>
+  </div>
+  <div  class="ecl-row">
+          <div  class="ecl-col-12">
+        <div>
+  
+    
+        <div class="ecl-u-type-m">
+    <section class="cnct-page-footer ecl-u-mv-2xl">
+              <hr class="ecl-u-mv-xl">
+        <div class="ecl-row">
+          <div class="ecl-col-12 ecl-col-m-4">
+            <h4>Last update</h4>
+            <p>24 July 2026</p>
+          </div>
+          <div class="ecl-col-12 ecl-col-m-4"></div>
+        </div>
+      
+              <hr class="ecl-u-mv-xl">
+                
+        <a
+  href="/en/node/17084/printable/pdf"
+  class="ecl-link ecl-link--secondary ecl-link--icon ecl-u-mb-xl cnt-print-pdf-btn"
+   target="_blank"
+><span 
+      class="ecl-link__label">Print as PDF</span><span 
+  class="wt-icon--file ecl-icon ecl-icon--s ecl-link__icon ecl-icon--file"
+  aria-hidden="true"
+  ></span></a>          </section>
+  </div>
+
+  </div>
+
+      </div>
+      </div>
+<div class="node_view"></div>
+  </div>
+
+</article>
+
+  </div>
+
+  </div>
+
+      </div>
+    </div>
+  </div>
+</main>
+
+          
+  
+
+
+  
+
+
+  
+    
+
+  <footer
+  class="ecl-site-footer"
+  
+><div class="ecl-site-footer__main"><div class="ecl-container ecl-site-footer__container"><div class="ecl-site-footer__row ecl-site-footer__row--specific"><div 
+  class="ecl-site-footer__section ecl-site-footer__section--site-info"
+  
+><div class="ecl-site-footer__title"><a
+  href="https://digital-strategy.ec.europa.eu/en"
+  class="ecl-link ecl-link--inverted ecl-link--icon ecl-site-footer__title-link"
+  
+><span 
+      class="ecl-link__label">Shaping Europe’s digital future</span><span 
+  class="wt-icon--arrow-left wt-icon--inverted ecl-icon ecl-icon--xs ecl-icon--flip-horizontal ecl-link__icon ecl-icon--arrow-left"
+  aria-hidden="true"
+  ></span></a></div><div class="ecl-site-footer__description">This site is managed by:<br />Directorate-General for Communications Networks, Content and Technology</div><div
+  class="ecl-social-media-follow ecl-social-media-follow--horizontal ecl-social-media-follow--left ecl-site-footer__social-media"
+  
+><ul class="ecl-social-media-follow__list"><li class="ecl-social-media-follow__item"><a
+  href="https://ec.social-network.europa.eu/@digitaleu"
+  class="ecl-link ecl-link--standalone ecl-link--inverted ecl-link--icon ecl-social-media-follow__link ecl-link--icon-only"
+  
+><span 
+  class="wt-icon-networks--mastodon wt-icon--inverted ecl-icon ecl-icon--s ecl-link__icon ecl-social-media-follow__icon ecl-icon-networks--mastodon"
+  aria-hidden="true"
+  ></span><span 
+      class="ecl-link__label">Digital EU on Mastadon</span></a></li><li class="ecl-social-media-follow__item"><a
+  href="https://www.linkedin.com/showcase/digital-eu/"
+  class="ecl-link ecl-link--standalone ecl-link--inverted ecl-link--icon ecl-social-media-follow__link ecl-link--icon-only"
+  
+><span 
+  class="wt-icon-networks--linkedin wt-icon--inverted ecl-icon ecl-icon--s ecl-link__icon ecl-social-media-follow__icon ecl-icon-networks--linkedin"
+  aria-hidden="true"
+  ></span><span 
+      class="ecl-link__label">Digital EU on LinkedIn</span></a></li><li class="ecl-social-media-follow__item"><a
+  href="https://www.facebook.com/DigitalEU"
+  class="ecl-link ecl-link--standalone ecl-link--inverted ecl-link--icon ecl-social-media-follow__link ecl-link--icon-only"
+  
+><span 
+  class="wt-icon-networks--facebook wt-icon--inverted ecl-icon ecl-icon--s ecl-link__icon ecl-social-media-follow__icon ecl-icon-networks--facebook"
+  aria-hidden="true"
+  ></span><span 
+      class="ecl-link__label">Digital EU on Facebook</span></a></li><li class="ecl-social-media-follow__item"><a
+  href="https://www.youtube.com/c/DigitalEU"
+  class="ecl-link ecl-link--standalone ecl-link--inverted ecl-link--icon ecl-social-media-follow__link ecl-link--icon-only"
+  
+><span 
+  class="wt-icon-networks--youtube wt-icon--inverted ecl-icon ecl-icon--s ecl-link__icon ecl-social-media-follow__icon ecl-icon-networks--youtube"
+  aria-hidden="true"
+  ></span><span 
+      class="ecl-link__label">Digital EU on Youtube</span></a></li><li class="ecl-social-media-follow__item"><a
+  href="https://www.instagram.com/DigitalEU/"
+  class="ecl-link ecl-link--standalone ecl-link--inverted ecl-link--icon ecl-social-media-follow__link ecl-link--icon-only"
+  
+><span 
+  class="wt-icon-networks--instagram wt-icon--inverted ecl-icon ecl-icon--s ecl-link__icon ecl-social-media-follow__icon ecl-icon-networks--instagram"
+  aria-hidden="true"
+  ></span><span 
+      class="ecl-link__label">Digital EU on Instagram</span></a></li><li class="ecl-social-media-follow__item"><a
+  href="https://x.com/DigitalEU"
+  class="ecl-link ecl-link--standalone ecl-link--inverted ecl-link--icon ecl-social-media-follow__link ecl-link--icon-only"
+  
+><span 
+  class="wt-icon-networks--x wt-icon--inverted ecl-icon ecl-icon--s ecl-link__icon ecl-social-media-follow__icon ecl-icon-networks--x"
+  aria-hidden="true"
+  ></span><span 
+      class="ecl-link__label">Digital EU on X</span></a></li></ul></div></div><div class="ecl-site-footer__section ecl-site-footer__section--links"><div class="ecl-site-footer__row"><div 
+  class="ecl-site-footer__section ecl-site-footer__section--about"
+  
+><div class="ecl-site-footer__title">
+    About us  </div><ul class="ecl-site-footer__list"><li class="ecl-site-footer__list-item"><a
+  href="https://digital-strategy.ec.europa.eu/en/pages/legal-notice#ecl-inpage-km0gfb8o"
+  class="ecl-link ecl-link--standalone ecl-link--inverted ecl-link--icon ecl-site-footer__link"
+  
+><span 
+      class="ecl-link__label">Privacy statement</span><span 
+  class="wt-icon--external ecl-icon ecl-icon--xs ecl-link__icon ecl-icon--external"
+  aria-hidden="true"
+  ></span></a></li><li class="ecl-site-footer__list-item"><a
+  href="https://digital-strategy.ec.europa.eu/en/pages/legal-notice#ecl-inpage-km0gezfs"
+  class="ecl-link ecl-link--standalone ecl-link--inverted ecl-link--icon ecl-site-footer__link"
+  
+><span 
+      class="ecl-link__label">Copyright notice</span><span 
+  class="wt-icon--external ecl-icon ecl-icon--xs ecl-link__icon ecl-icon--external"
+  aria-hidden="true"
+  ></span></a></li><li class="ecl-site-footer__list-item"><a
+  href="https://ec.europa.eu/info/departments/communications-networks-content-and-technology_en"
+  class="ecl-link ecl-link--standalone ecl-link--inverted ecl-link--icon ecl-site-footer__link"
+  
+><span 
+      class="ecl-link__label">About Directorate-General CONNECT</span><span 
+  class="wt-icon--external ecl-icon ecl-icon--xs ecl-link__icon ecl-icon--external"
+  aria-hidden="true"
+  ></span></a></li><li class="ecl-site-footer__list-item"><a
+  href="https://digital-strategy.ec.europa.eu/en/pages/legal-notice#ecl-inpage-kyoexp6k"
+  class="ecl-link ecl-link--standalone ecl-link--inverted ecl-link--icon ecl-site-footer__link"
+  
+><span 
+      class="ecl-link__label">Language Policy</span><span 
+  class="wt-icon--external ecl-icon ecl-icon--xs ecl-link__icon ecl-icon--external"
+  aria-hidden="true"
+  ></span></a></li></ul></div></div></div></div><div class="ecl-site-footer__row ecl-site-footer__row--common"><div 
+  class="ecl-site-footer__section ecl-site-footer__section--common"
+  
+><a
+  href="https://commission.europa.eu/index_en"
+  class="ecl-link ecl-link--standalone ecl-link--inverted ecl-site-footer__logo-link"
+  
+><picture
+  class="ecl-picture ecl-site-footer__picture"
+  
+><img 
+              class="ecl-site-footer__logo-image"
+              src="/themes/contrib/oe_theme/dist/ec/images/logo/negative/logo-ec--en.svg"
+              alt="European Commission logo"
+          ></picture></a><div class="ecl-site-footer__extra-links-container"><div
+  class="ecl-social-media-follow ecl-social-media-follow--left ecl-social-media-follow--description_inline ecl-site-footer__social-media"
+  
+><p class="ecl-social-media-follow__description">Follow the European Commission</p><ul class="ecl-social-media-follow__list"><li class="ecl-social-media-follow__item"><a
+  href="https://ec.social-network.europa.eu/@EUCommission"
+  class="ecl-link ecl-link--standalone ecl-link--inverted ecl-link--icon ecl-social-media-follow__link ecl-link--icon-only"
+  
+><span 
+  class="wt-icon-networks--mastodon wt-icon--inverted ecl-icon ecl-icon--s ecl-link__icon ecl-social-media-follow__icon ecl-icon-networks--mastodon"
+  aria-hidden="true"
+  ></span><span 
+      class="ecl-link__label">Mastodon</span></a></li><li class="ecl-social-media-follow__item"><a
+  href="http://www.linkedin.com/company/european-commission"
+  class="ecl-link ecl-link--standalone ecl-link--inverted ecl-link--icon ecl-social-media-follow__link ecl-link--icon-only"
+  
+><span 
+  class="wt-icon-networks--linkedin wt-icon--inverted ecl-icon ecl-icon--s ecl-link__icon ecl-social-media-follow__icon ecl-icon-networks--linkedin"
+  aria-hidden="true"
+  ></span><span 
+      class="ecl-link__label">LinkedIn</span></a></li><li class="ecl-social-media-follow__item"><a
+  href="https://bsky.app/profile/ec.europa.eu"
+  class="ecl-link ecl-link--standalone ecl-link--inverted ecl-link--icon ecl-social-media-follow__link ecl-link--icon-only"
+  
+><span 
+  class="wt-icon-networks--bluesky wt-icon--inverted ecl-icon ecl-icon--s ecl-link__icon ecl-social-media-follow__icon ecl-icon-networks--bluesky"
+  aria-hidden="true"
+  ></span><span 
+      class="ecl-link__label">Bluesky</span></a></li><li class="ecl-social-media-follow__item"><a
+  href="https://www.facebook.com/EuropeanCommission"
+  class="ecl-link ecl-link--standalone ecl-link--inverted ecl-link--icon ecl-social-media-follow__link ecl-link--icon-only"
+  
+><span 
+  class="wt-icon-networks--facebook wt-icon--inverted ecl-icon ecl-icon--s ecl-link__icon ecl-social-media-follow__icon ecl-icon-networks--facebook"
+  aria-hidden="true"
+  ></span><span 
+      class="ecl-link__label">Facebook</span></a></li><li class="ecl-social-media-follow__item"><a
+  href="https://www.youtube.com/user/eutube"
+  class="ecl-link ecl-link--standalone ecl-link--inverted ecl-link--icon ecl-social-media-follow__link ecl-link--icon-only"
+  
+><span 
+  class="wt-icon-networks--youtube wt-icon--inverted ecl-icon ecl-icon--s ecl-link__icon ecl-social-media-follow__icon ecl-icon-networks--youtube"
+  aria-hidden="true"
+  ></span><span 
+      class="ecl-link__label">Youtube</span></a></li><li class="ecl-social-media-follow__item"><a
+  href="https://european-union.europa.eu/contact-eu/social-media-channels_en"
+  class="ecl-link ecl-link--standalone ecl-link--inverted ecl-link--icon ecl-social-media-follow__link ecl-link--icon-only"
+  
+><span 
+  class="wt-icon-networks--chain wt-icon--inverted ecl-icon ecl-icon--s ecl-link__icon ecl-social-media-follow__icon ecl-icon-networks--chain"
+  aria-hidden="true"
+  ></span><span 
+      class="ecl-link__label">Other</span></a></li></ul></div><ul class="ecl-site-footer__list ecl-site-footer__list--inline"><li class="ecl-site-footer__list-item"><a
+  href="https://commission.europa.eu/about/contact_en"
+  class="ecl-link ecl-link--standalone ecl-link--inverted ecl-site-footer__link"
+  
+>Contact us</a></li></ul></div><ul class="ecl-site-footer__list ecl-site-footer__list--inline"><li class="ecl-site-footer__list-item"><a
+  href="https://commission.europa.eu/legal-notice/vulnerability-disclosure-policy_en"
+  class="ecl-link ecl-link--standalone ecl-link--inverted ecl-site-footer__link"
+  
+>Report an IT vulnerability</a></li><li class="ecl-site-footer__list-item"><a
+  href="https://commission.europa.eu/languages-our-websites_en"
+  class="ecl-link ecl-link--standalone ecl-link--inverted ecl-site-footer__link"
+  
+>Languages on our websites</a></li><li class="ecl-site-footer__list-item"><a
+  href="https://commission.europa.eu/cookies-policy_en"
+  class="ecl-link ecl-link--standalone ecl-link--inverted ecl-site-footer__link"
+  
+>Cookies</a></li><li class="ecl-site-footer__list-item"><a
+  href="https://commission.europa.eu/privacy-policy-websites-managed-european-commission_en"
+  class="ecl-link ecl-link--standalone ecl-link--inverted ecl-site-footer__link"
+  
+>Privacy policy</a></li><li class="ecl-site-footer__list-item"><a
+  href="https://commission.europa.eu/legal-notice_en"
+  class="ecl-link ecl-link--standalone ecl-link--inverted ecl-site-footer__link"
+  
+>Legal notice</a></li><li class="ecl-site-footer__list-item"><a
+  href="/en/pages/accessibility"
+  class="ecl-link ecl-link--standalone ecl-link--inverted ecl-site-footer__link"
+   data-is-accessibility-link="true"
+>Accessibility</a></li></ul></div></div></div></div></footer>
+
+
+  
+  </div>
+
+    <script type="application/json">{"utility":"piwik","siteID":"605","sitePath":["digital-strategy.ec.europa.eu"],"instance":"ec.europa.eu","dimensions":[{"id":3,"value":"Artificial intelligence"}]}</script>
+<script type="application/json">{"utility":"cck"}</script>
+<script type="application/json">{"service":"laco","include":"#main-content a","coverage":{"document":"other","page":"other"},"icon":"all","exclude":"#main-content a.ecl-tag, #main-content .ecl-message--info"}</script>
+
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"node\/17084","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"back_to_top":{"back_to_top_button_trigger":100,"back_to_top_speed":1200,"back_to_top_prevent_on_mobile":false,"back_to_top_prevent_in_admin":true,"back_to_top_button_type":"image","back_to_top_button_text":"Back to top"},"ajaxTrustedUrl":{"\/en\/search":true},"user":{"uid":0,"permissionsHash":"0aed4c559812af4690f75a06bb890cb660bdb1ce397a6d7e69962e8d33ede629"}}</script>
+<script src="/sites/default/files/js/js_tV6k-ISNGkCRAxa4F4STuZ0Q6M50pZdjfipDpHmhEtc.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=cnt_theme&amp;include=eJxFi2sOwzAIgy_ULkdCkKAuGwkRsEdvv6jqVMk_7M82YX5C6NRIdHl4-JJ7QGHPVkdU7Sls9geNOzdOmyihrB671L4tyifP2oZ2njupZGg7cL5a_gZbRwF_H58PU6iKp2KvgXL759UbWohiYfsBKiFBdw"></script>
+<script src="/themes/custom/cnt_theme/js/cnt_large_tables_handler.js?tlctc6" defer></script>
+<script src="/sites/default/files/js/js_DYlJjDKw_VmSOnPHfY9Q_r1DG9ztPcrFmeYl9Sex86w.js?scope=footer&amp;delta=2&amp;language=en&amp;theme=cnt_theme&amp;include=eJxFi2sOwzAIgy_ULkdCkKAuGwkRsEdvv6jqVMk_7M82YX5C6NRIdHl4-JJ7QGHPVkdU7Sls9geNOzdOmyihrB671L4tyifP2oZ2njupZGg7cL5a_gZbRwF_H58PU6iKp2KvgXL759UbWohiYfsBKiFBdw"></script>
+<script src="https://webtools.europa.eu/load.js" defer></script>
+
+  </body>
+</html>

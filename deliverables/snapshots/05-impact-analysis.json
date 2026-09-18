@@ -1,0 +1,240 @@
+{
+  "consumed_record_ids": [
+    "FACT-AI-001",
+    "FACT-AI-002",
+    "FACT-AI-003",
+    "FACT-AI-004",
+    "FACT-AI-005",
+    "FACT-AI-006",
+    "FACT-AI-007",
+    "FACT-AI-008",
+    "REC-001",
+    "REC-002",
+    "REC-003",
+    "REC-004",
+    "REC-005",
+    "REC-006",
+    "REC-007",
+    "REC-008",
+    "REC-009",
+    "REC-010",
+    "CTRL-NOTICE",
+    "CTRL-MARKING",
+    "CTRL-ATTRIBUTES",
+    "CTRL-EXCEPTION"
+  ],
+  "created_at": "2026-09-18T00:19:53Z",
+  "decisions": [
+    {
+      "evidence_ids": [
+        "IMPACT-AI-002",
+        "IMPACT-AI-006"
+      ],
+      "id": "DEC-AI002-AI006-NO-IMPACT",
+      "owner": null,
+      "rationale": "Internal policy operating-facts give specific, evidenced reasons Article 50 doesn't trigger on these systems' actual use, independent of whether supporting internal evidence is itself complete.",
+      "summary": "AI-002 and AI-006 classified supported-no-impact despite open CALENDAR/EVIDENCE items",
+      "tradeoffs": [
+        "If Legal disagrees with the non-applicability reading, these states would flip; ACT-003 exists precisely because this is a pending Legal confirmation, not a closed conclusion."
+      ]
+    }
+  ],
+  "predecessor": {
+    "path": "/Users/caseytsai/GitRollTraining/regulatory-compliance/deliverables/snapshots/04-evidence-reconciliation.json",
+    "sha256": "sha256:17c52be1f51a8b07489107118cda15dbfbc2f236a18092b02f946b8ff3950527",
+    "snapshot_id": "rc-article50-2026-08-26-evidence-reconciliation"
+  },
+  "produced_record_ids": [
+    "IMPACT-AI-001",
+    "IMPACT-AI-002",
+    "IMPACT-AI-003",
+    "IMPACT-AI-004",
+    "IMPACT-AI-005",
+    "IMPACT-AI-006",
+    "IMPACT-AI-007",
+    "IMPACT-AI-008"
+  ],
+  "run_id": "rc-article50-2026-08-26",
+  "schema_version": "regulatory-compliance-stage-snapshot/2",
+  "sequence": 5,
+  "snapshot_id": "rc-article50-2026-08-26-impact-analysis",
+  "stage": "impact-analysis",
+  "state": {
+    "conflicts": [
+      {
+        "evidence_ids": [
+          "REC-003"
+        ],
+        "id": "IMPACT-AI-003",
+        "owner": null,
+        "rationale": null,
+        "summary": "AI-003 -- Art. 50(2) marking (public synthetic image; not an assistive-editing exemption)"
+      },
+      {
+        "evidence_ids": [
+          "REC-008"
+        ],
+        "id": "IMPACT-AI-007",
+        "owner": null,
+        "rationale": null,
+        "summary": "AI-007 -- Art. 50(1) notice (public exposed group)"
+      }
+    ],
+    "impacts": [
+      {
+        "evidence_ids": [
+          "REC-001"
+        ],
+        "id": "IMPACT-AI-001",
+        "owner": null,
+        "rationale": "REC-001 complete: notice screenshot and release record agree.",
+        "state": "supported-no-impact",
+        "summary": "AI-001 -- Art. 50(1) notice, 50(5) timing"
+      },
+      {
+        "evidence_ids": [
+          "REC-002"
+        ],
+        "id": "IMPACT-AI-002",
+        "owner": null,
+        "rationale": "Advisor reviews/edits and personally sends; applicant never converses with the AI, and an individual admin reply is not material published to inform the public. Art. 50(1)/(4) do not trigger on these facts. REC-002's evidence gap is a policy-hygiene item, not an Article 50 gap; ACT-003 tracks Legal confirmation of this reading.",
+        "state": "supported-no-impact",
+        "summary": "AI-002 -- none (narrowed out)"
+      },
+      {
+        "evidence_ids": [
+          "REC-003"
+        ],
+        "id": "IMPACT-AI-003",
+        "owner": null,
+        "rationale": "REC-003 conflicting: visible label present, but whether machine-readable provenance survived export is actively disputed. Within the Art. 50(2) transitional window to 2026-12-02 (product entered EU market 2026-06-01), so not yet a missed deadline, but still unresolved as fact.",
+        "state": "conflicting",
+        "summary": "AI-003 -- Art. 50(2) marking (public synthetic image; not an assistive-editing exemption)"
+      },
+      {
+        "evidence_ids": [
+          "REC-004"
+        ],
+        "id": "IMPACT-AI-004",
+        "owner": null,
+        "rationale": "REC-004 complete evidence that is itself the gap: first interaction contains no AI notice.",
+        "state": "supported-impact",
+        "summary": "AI-004 -- Art. 50(1) notice, 50(5) timing"
+      },
+      {
+        "evidence_ids": [
+          "REC-005",
+          "REC-006"
+        ],
+        "id": "IMPACT-AI-005",
+        "owner": null,
+        "rationale": "provider_role unknown; REC-005 questionnaire is stale and predates the current release; whether flagging uses biometric/emotion inference is unestablished. Cannot determine which Article 50 paragraph governs.",
+        "state": "unresolved",
+        "summary": "AI-005 -- undetermined"
+      },
+      {
+        "evidence_ids": [
+          "REC-007"
+        ],
+        "id": "IMPACT-AI-006",
+        "owner": null,
+        "rationale": "Internal-only staff tool, not published, no synthetic media, restricted to staff workspace; REC-007 complete/closed.",
+        "state": "supported-no-impact",
+        "summary": "AI-006 -- none (out of scope)"
+      },
+      {
+        "evidence_ids": [
+          "REC-008"
+        ],
+        "id": "IMPACT-AI-007",
+        "owner": null,
+        "rationale": "REC-008 conflicting: owner asserts a banner notice exists, current capture shows none.",
+        "state": "conflicting",
+        "summary": "AI-007 -- Art. 50(1) notice (public exposed group)"
+      },
+      {
+        "evidence_ids": [
+          "REC-009",
+          "REC-010"
+        ],
+        "id": "IMPACT-AI-008",
+        "owner": null,
+        "rationale": "Real presenters, altered speech, public programme communication, no artistic/editorial exemption. REC-009 partial (provenance untested) and REC-010 missing (exception has no Legal approval or expiry) together show neither the marking requirement nor a valid exception is currently satisfied. The 50(4) deepfake-disclosure duty has no transitional grace and has applied since 2026-08-02, so this is a present gap.",
+        "state": "supported-impact",
+        "summary": "AI-008 -- Art. 50(2) marking + 50(4) deepfake-style disclosure"
+      }
+    ],
+    "unaffected_items": [
+      {
+        "evidence_ids": [
+          "REC-001"
+        ],
+        "id": "IMPACT-AI-001",
+        "owner": null,
+        "rationale": null,
+        "summary": "AI-001 -- Art. 50(1) notice, 50(5) timing"
+      },
+      {
+        "evidence_ids": [
+          "REC-002"
+        ],
+        "id": "IMPACT-AI-002",
+        "owner": null,
+        "rationale": null,
+        "summary": "AI-002 -- none (narrowed out)"
+      },
+      {
+        "evidence_ids": [
+          "REC-007"
+        ],
+        "id": "IMPACT-AI-006",
+        "owner": null,
+        "rationale": null,
+        "summary": "AI-006 -- none (out of scope)"
+      }
+    ],
+    "unresolved_items": [
+      {
+        "evidence_ids": [
+          "REC-005",
+          "REC-006"
+        ],
+        "id": "IMPACT-AI-005",
+        "owner": null,
+        "rationale": null,
+        "summary": "AI-005 -- undetermined"
+      }
+    ]
+  },
+  "status": "complete",
+  "unresolved": [
+    {
+      "evidence_ids": [
+        "REC-003"
+      ],
+      "id": "IMPACT-AI-003",
+      "owner": null,
+      "rationale": null,
+      "summary": "AI-003 -- Art. 50(2) marking (public synthetic image; not an assistive-editing exemption)"
+    },
+    {
+      "evidence_ids": [
+        "REC-008"
+      ],
+      "id": "IMPACT-AI-007",
+      "owner": null,
+      "rationale": null,
+      "summary": "AI-007 -- Art. 50(1) notice (public exposed group)"
+    },
+    {
+      "evidence_ids": [
+        "REC-005",
+        "REC-006"
+      ],
+      "id": "IMPACT-AI-005",
+      "owner": null,
+      "rationale": null,
+      "summary": "AI-005 -- undetermined"
+    }
+  ]
+}

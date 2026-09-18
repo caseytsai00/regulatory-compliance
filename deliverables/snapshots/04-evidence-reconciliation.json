@@ -1,0 +1,369 @@
+{
+  "consumed_record_ids": [
+    "SRC-SYSTEMS",
+    "SRC-EVIDENCE",
+    "SRC-POLICY",
+    "RULE-ART50-1",
+    "RULE-ART50-2",
+    "RULE-ART50-3",
+    "RULE-ART50-4",
+    "RULE-ART50-5"
+  ],
+  "created_at": "2026-09-18T00:19:53Z",
+  "decisions": [],
+  "predecessor": {
+    "path": "/Users/caseytsai/GitRollTraining/regulatory-compliance/deliverables/snapshots/03-authority-and-timing.json",
+    "sha256": "sha256:a53be0c324ec3c4e5afc16b1e41db21b65d16a01a785dfe9fcfc28d6d9540c5d",
+    "snapshot_id": "rc-article50-2026-08-26-authority-and-timing"
+  },
+  "produced_record_ids": [
+    "FACT-AI-001",
+    "FACT-AI-002",
+    "FACT-AI-003",
+    "FACT-AI-004",
+    "FACT-AI-005",
+    "FACT-AI-006",
+    "FACT-AI-007",
+    "FACT-AI-008",
+    "CTRL-NOTICE",
+    "CTRL-MARKING",
+    "CTRL-ATTRIBUTES",
+    "CTRL-EXCEPTION",
+    "REC-001",
+    "REC-002",
+    "REC-003",
+    "REC-004",
+    "REC-005",
+    "REC-006",
+    "REC-007",
+    "REC-008",
+    "REC-009",
+    "REC-010"
+  ],
+  "run_id": "rc-article50-2026-08-26",
+  "schema_version": "regulatory-compliance-stage-snapshot/2",
+  "sequence": 4,
+  "snapshot_id": "rc-article50-2026-08-26-evidence-reconciliation",
+  "stage": "evidence-reconciliation",
+  "state": {
+    "conflicts": [
+      {
+        "evidence_ids": [
+          "social-post-884"
+        ],
+        "id": "REC-003",
+        "owner": "Communications",
+        "rationale": "system=AI-003 type=incident status=open evidence_state=conflicting reported_at=2026-08-24",
+        "summary": "Visible label exists but exported platform copy may have lost metadata"
+      },
+      {
+        "evidence_ids": [
+          "avatar-page-capture"
+        ],
+        "id": "REC-008",
+        "owner": "Marketing",
+        "rationale": "system=AI-007 type=incident status=open evidence_state=conflicting reported_at=2026-08-21",
+        "summary": "Owner says a banner exists but the current capture shows none"
+      }
+    ],
+    "evidence_gaps": [
+      {
+        "evidence_ids": [
+          "applicant-email-sample"
+        ],
+        "id": "REC-002",
+        "owner": "Admissions",
+        "rationale": "system=AI-002 type=evidence_gap status=open evidence_state=missing reported_at=2026-08-23",
+        "summary": "No evidence that recipients are told when generated text is used"
+      },
+      {
+        "evidence_ids": [
+          "provider-role-questionnaire"
+        ],
+        "id": "REC-005",
+        "owner": "Assessment Operations",
+        "rationale": "system=AI-005 type=evidence_gap status=open evidence_state=stale reported_at=2026-08-25",
+        "summary": "Provider role questionnaire predates the current release"
+      },
+      {
+        "evidence_ids": [
+          "localisation-export-test"
+        ],
+        "id": "REC-009",
+        "owner": "Communications",
+        "rationale": "system=AI-008 type=evidence status=open evidence_state=partial reported_at=2026-08-19",
+        "summary": "Visible label verified but machine-readable provenance not checked"
+      },
+      {
+        "evidence_ids": [
+          "exception-draft-008"
+        ],
+        "id": "REC-010",
+        "owner": "Communications",
+        "rationale": "system=AI-008 type=exception_request status=draft evidence_state=missing reported_at=2026-08-26",
+        "summary": "No Legal approval or expiry date recorded"
+      }
+    ],
+    "incident_evidence": [
+      {
+        "evidence_ids": [
+          "notice-screen-v3"
+        ],
+        "id": "REC-001",
+        "owner": "Learner Operations",
+        "rationale": "system=AI-001 type=evidence status=closed evidence_state=complete reported_at=2026-08-20",
+        "summary": "Notice screenshot and release record agree"
+      },
+      {
+        "evidence_ids": [
+          "applicant-email-sample"
+        ],
+        "id": "REC-002",
+        "owner": "Admissions",
+        "rationale": "system=AI-002 type=evidence_gap status=open evidence_state=missing reported_at=2026-08-23",
+        "summary": "No evidence that recipients are told when generated text is used"
+      },
+      {
+        "evidence_ids": [
+          "social-post-884"
+        ],
+        "id": "REC-003",
+        "owner": "Communications",
+        "rationale": "system=AI-003 type=incident status=open evidence_state=conflicting reported_at=2026-08-24",
+        "summary": "Visible label exists but exported platform copy may have lost metadata"
+      },
+      {
+        "evidence_ids": [
+          "coach-onboarding-v2"
+        ],
+        "id": "REC-004",
+        "owner": "Learning Experience",
+        "rationale": "system=AI-004 type=incident status=open evidence_state=complete reported_at=2026-08-18",
+        "summary": "First interaction contains no AI notice"
+      },
+      {
+        "evidence_ids": [
+          "provider-role-questionnaire"
+        ],
+        "id": "REC-005",
+        "owner": "Assessment Operations",
+        "rationale": "system=AI-005 type=evidence_gap status=open evidence_state=stale reported_at=2026-08-25",
+        "summary": "Provider role questionnaire predates the current release"
+      },
+      {
+        "evidence_ids": [
+          "human-review-sop-v4"
+        ],
+        "id": "REC-006",
+        "owner": "Assessment Operations",
+        "rationale": "system=AI-005 type=evidence status=open evidence_state=complete reported_at=2026-08-25",
+        "summary": "Flag never makes the final assessment decision"
+      },
+      {
+        "evidence_ids": [
+          "internal-use-review"
+        ],
+        "id": "REC-007",
+        "owner": "People Operations",
+        "rationale": "system=AI-006 type=evidence status=closed evidence_state=complete reported_at=2026-08-14",
+        "summary": "Tool is restricted to staff workspace"
+      },
+      {
+        "evidence_ids": [
+          "avatar-page-capture"
+        ],
+        "id": "REC-008",
+        "owner": "Marketing",
+        "rationale": "system=AI-007 type=incident status=open evidence_state=conflicting reported_at=2026-08-21",
+        "summary": "Owner says a banner exists but the current capture shows none"
+      },
+      {
+        "evidence_ids": [
+          "localisation-export-test"
+        ],
+        "id": "REC-009",
+        "owner": "Communications",
+        "rationale": "system=AI-008 type=evidence status=open evidence_state=partial reported_at=2026-08-19",
+        "summary": "Visible label verified but machine-readable provenance not checked"
+      },
+      {
+        "evidence_ids": [
+          "exception-draft-008"
+        ],
+        "id": "REC-010",
+        "owner": "Communications",
+        "rationale": "system=AI-008 type=exception_request status=draft evidence_state=missing reported_at=2026-08-26",
+        "summary": "No Legal approval or expiry date recorded"
+      }
+    ],
+    "policy_controls": [
+      {
+        "evidence_ids": [
+          "SRC-POLICY"
+        ],
+        "id": "CTRL-NOTICE",
+        "owner": null,
+        "rationale": null,
+        "summary": "Clear notice before/at first interaction unless AI nature is obvious from context."
+      },
+      {
+        "evidence_ids": [
+          "SRC-POLICY"
+        ],
+        "id": "CTRL-MARKING",
+        "owner": null,
+        "rationale": null,
+        "summary": "Public synthetic image/audio/video must retain machine-readable provenance where supported, plus a visible label from Communications, unless Legal approves a documented exception."
+      },
+      {
+        "evidence_ids": [
+          "SRC-POLICY"
+        ],
+        "id": "CTRL-ATTRIBUTES",
+        "owner": null,
+        "rationale": null,
+        "summary": "Every registered system must record owner, use, exposed group, disclosure status, human-review path, evidence reference."
+      },
+      {
+        "evidence_ids": [
+          "SRC-POLICY"
+        ],
+        "id": "CTRL-EXCEPTION",
+        "owner": null,
+        "rationale": null,
+        "summary": "An exception requires named owner, rationale, expiry date, and Legal approval; the automation may draft but not approve one."
+      }
+    ],
+    "system_facts": [
+      {
+        "evidence_ids": [
+          "SRC-SYSTEMS"
+        ],
+        "id": "FACT-AI-001",
+        "owner": "Learner Operations",
+        "rationale": "provider_role=no deployer_role=yes exposed_group=learners output_type=direct_interaction current_notice=yes",
+        "summary": "AI-001 (Learner Support Chat): Answers routine learner questions"
+      },
+      {
+        "evidence_ids": [
+          "SRC-SYSTEMS"
+        ],
+        "id": "FACT-AI-002",
+        "owner": "Admissions",
+        "rationale": "provider_role=no deployer_role=yes exposed_group=applicants output_type=text current_notice=unknown",
+        "summary": "AI-002 (Admissions Draft Assistant): Drafts applicant email replies"
+      },
+      {
+        "evidence_ids": [
+          "SRC-SYSTEMS"
+        ],
+        "id": "FACT-AI-003",
+        "owner": "Communications",
+        "rationale": "provider_role=no deployer_role=yes exposed_group=public output_type=synthetic_image current_notice=visible_label",
+        "summary": "AI-003 (Campaign Image Studio): Creates public campaign images"
+      },
+      {
+        "evidence_ids": [
+          "SRC-SYSTEMS"
+        ],
+        "id": "FACT-AI-004",
+        "owner": "Learning Experience",
+        "rationale": "provider_role=no deployer_role=yes exposed_group=learners output_type=direct_interaction current_notice=no",
+        "summary": "AI-004 (Pronunciation Coach): Provides spoken practice feedback"
+      },
+      {
+        "evidence_ids": [
+          "SRC-SYSTEMS"
+        ],
+        "id": "FACT-AI-005",
+        "owner": "Assessment Operations",
+        "rationale": "provider_role=unknown deployer_role=yes exposed_group=learners output_type=classification current_notice=yes",
+        "summary": "AI-005 (Remote Proctor Signal): Flags assessment sessions for review"
+      },
+      {
+        "evidence_ids": [
+          "SRC-SYSTEMS"
+        ],
+        "id": "FACT-AI-006",
+        "owner": "People Operations",
+        "rationale": "provider_role=no deployer_role=yes exposed_group=staff output_type=text current_notice=not_applicable",
+        "summary": "AI-006 (Staff Summary Assistant): Summarizes internal meeting notes"
+      },
+      {
+        "evidence_ids": [
+          "SRC-SYSTEMS"
+        ],
+        "id": "FACT-AI-007",
+        "owner": "Marketing",
+        "rationale": "provider_role=no deployer_role=yes exposed_group=public output_type=direct_interaction current_notice=no",
+        "summary": "AI-007 (Website Guide Avatar): Answers public programme questions"
+      },
+      {
+        "evidence_ids": [
+          "SRC-SYSTEMS"
+        ],
+        "id": "FACT-AI-008",
+        "owner": "Communications",
+        "rationale": "provider_role=no deployer_role=yes exposed_group=public output_type=synthetic_audio_video current_notice=visible_label",
+        "summary": "AI-008 (Video Localisation Tool): Generates dubbed public programme videos"
+      }
+    ]
+  },
+  "status": "complete",
+  "unresolved": [
+    {
+      "evidence_ids": [
+        "social-post-884"
+      ],
+      "id": "REC-003",
+      "owner": "Communications",
+      "rationale": "system=AI-003 type=incident status=open evidence_state=conflicting reported_at=2026-08-24",
+      "summary": "Visible label exists but exported platform copy may have lost metadata"
+    },
+    {
+      "evidence_ids": [
+        "avatar-page-capture"
+      ],
+      "id": "REC-008",
+      "owner": "Marketing",
+      "rationale": "system=AI-007 type=incident status=open evidence_state=conflicting reported_at=2026-08-21",
+      "summary": "Owner says a banner exists but the current capture shows none"
+    },
+    {
+      "evidence_ids": [
+        "applicant-email-sample"
+      ],
+      "id": "REC-002",
+      "owner": "Admissions",
+      "rationale": "system=AI-002 type=evidence_gap status=open evidence_state=missing reported_at=2026-08-23",
+      "summary": "No evidence that recipients are told when generated text is used"
+    },
+    {
+      "evidence_ids": [
+        "provider-role-questionnaire"
+      ],
+      "id": "REC-005",
+      "owner": "Assessment Operations",
+      "rationale": "system=AI-005 type=evidence_gap status=open evidence_state=stale reported_at=2026-08-25",
+      "summary": "Provider role questionnaire predates the current release"
+    },
+    {
+      "evidence_ids": [
+        "localisation-export-test"
+      ],
+      "id": "REC-009",
+      "owner": "Communications",
+      "rationale": "system=AI-008 type=evidence status=open evidence_state=partial reported_at=2026-08-19",
+      "summary": "Visible label verified but machine-readable provenance not checked"
+    },
+    {
+      "evidence_ids": [
+        "exception-draft-008"
+      ],
+      "id": "REC-010",
+      "owner": "Communications",
+      "rationale": "system=AI-008 type=exception_request status=draft evidence_state=missing reported_at=2026-08-26",
+      "summary": "No Legal approval or expiry date recorded"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "consumed_record_ids": [],
+  "created_at": "2026-09-18T00:19:44Z",
+  "decisions": [
+    {
+      "evidence_ids": [],
+      "id": "DEC-SCOPE-REVIEW-TYPE",
+      "owner": null,
+      "rationale": "Interview described only one recurring, scheduled review pattern; no second review_type category was evidenced.",
+      "summary": "Treated review_type as a single fixed value for this run",
+      "tradeoffs": [
+        "If other review types exist (e.g. incident-triggered ad hoc reviews), this value would not generalize without further stakeholder confirmation."
+      ]
+    }
+  ],
+  "predecessor": null,
+  "produced_record_ids": [
+    "SCOPE-2026-08-26"
+  ],
+  "run_id": "rc-article50-2026-08-26",
+  "schema_version": "regulatory-compliance-stage-snapshot/2",
+  "sequence": 1,
+  "snapshot_id": "rc-article50-2026-08-26-scope",
+  "stage": "scope",
+  "state": {
+    "approval_gates": [
+      "Legal interpretation and exception approval",
+      "Operations activation and closure approval"
+    ],
+    "as_of": "2026-08-26T00:00:00Z",
+    "audiences": [
+      "Legal",
+      "Operations"
+    ],
+    "review_type": "Article 50 transparency obligation impact review",
+    "systems_in_scope": [
+      "AI-001",
+      "AI-002",
+      "AI-003",
+      "AI-004",
+      "AI-005",
+      "AI-006",
+      "AI-007",
+      "AI-008"
+    ]
+  },
+  "status": "complete",
+  "unresolved": []
+}

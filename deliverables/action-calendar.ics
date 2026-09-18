@@ -1,0 +1,70 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Quillhaven Compliance//Article 50 Review//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ACT-001-rc-article50-2026-08-26@quillhaven-compliance-draft
+DTSTAMP:20260918T001953Z
+DTSTART;VALUE=DATE:20260904
+SUMMARY:[DRAFT] Add and verify first-interaction AI notice (AI-004)
+DESCRIPTION:Owner: Learning Experience. Status: planned. Approval required: operations (pending). This is a local draft action calendar\; it does not activate policy or set a production deadline.
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:ACT-002-rc-article50-2026-08-26@quillhaven-compliance-draft
+DTSTAMP:20260918T001953Z
+DTSTART;VALUE=DATE:20260903
+SUMMARY:[DRAFT] Resolve disclosure evidence conflict (AI-007)
+DESCRIPTION:Owner: Marketing. Status: open. Approval required: operations (pending). This is a local draft action calendar\; it does not activate policy or set a production deadline.
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:ACT-003-rc-article50-2026-08-26@quillhaven-compliance-draft
+DTSTAMP:20260918T001953Z
+DTSTART;VALUE=DATE:20260908
+SUMMARY:[DRAFT] Confirm recipient disclosure practice (AI-002)
+DESCRIPTION:Owner: Admissions. Status: open. Approval required: legal (pending). This is a local draft action calendar\; it does not activate policy or set a production deadline.
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:ACT-004-rc-article50-2026-08-26@quillhaven-compliance-draft
+DTSTAMP:20260918T001953Z
+DTSTART;VALUE=DATE:20260910
+SUMMARY:[DRAFT] Verify machine-readable provenance after publishing (AI-003)
+DESCRIPTION:Owner: Communications. Status: open. Approval required: operations (pending). This is a local draft action calendar\; it does not activate policy or set a production deadline.
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:ACT-005-rc-article50-2026-08-26@quillhaven-compliance-draft
+DTSTAMP:20260918T001953Z
+DTSTART;VALUE=DATE:20260912
+SUMMARY:[DRAFT] Refresh provider-role and release evidence (AI-005)
+DESCRIPTION:Owner: Assessment Operations. Status: open. Approval required: legal (pending). This is a local draft action calendar\; it does not activate policy or set a production deadline.
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:ACT-006-rc-article50-2026-08-26@quillhaven-compliance-draft
+DTSTAMP:20260918T001953Z
+DTSTART;VALUE=DATE:20260909
+SUMMARY:[DRAFT] Complete provenance test (AI-008)
+DESCRIPTION:Owner: Communications. Status: open. Approval required: operations (pending). This is a local draft action calendar\; it does not activate policy or set a production deadline.
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:ACT-007-rc-article50-2026-08-26@quillhaven-compliance-draft
+DTSTAMP:20260918T001953Z
+DTSTART;VALUE=DATE:20260915
+SUMMARY:[DRAFT] Review exception request (AI-008)
+DESCRIPTION:Owner: Legal. Status: blocked. Approval required: legal (pending). This is a local draft action calendar\; it does not activate policy or set a production deadline.
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:ACT-008-rc-article50-2026-08-26@quillhaven-compliance-draft
+DTSTAMP:20260918T001953Z
+DTSTART;VALUE=DATE:20261002
+SUMMARY:[DRAFT] Quarterly AI register evidence review (ALL)
+DESCRIPTION:Owner: Operations. Status: scheduled. Approval required: operations (pending). This is a local draft action calendar\; it does not activate policy or set a production deadline.
+STATUS:TENTATIVE
+END:VEVENT
+END:VCALENDAR

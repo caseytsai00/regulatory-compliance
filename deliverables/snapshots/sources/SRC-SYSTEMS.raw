@@ -1,0 +1,9 @@
+system_id,system_name,use_case,owner,provider_role,deployer_role,exposed_group,output_type,current_notice,human_review,evidence_status,evidence_updated_at,record_version
+AI-001,Learner Support Chat,Answers routine learner questions,Learner Operations,no,yes,learners,direct_interaction,yes,staff escalation,complete,2026-08-20,register-2026-08-26
+AI-002,Admissions Draft Assistant,Drafts applicant email replies,Admissions,no,yes,applicants,text,unknown,advisor approval,partial,2026-07-01,register-2026-08-26
+AI-003,Campaign Image Studio,Creates public campaign images,Communications,no,yes,public,synthetic_image,visible_label,communications approval,complete,2026-08-22,register-2026-08-26
+AI-004,Pronunciation Coach,Provides spoken practice feedback,Learning Experience,no,yes,learners,direct_interaction,no,instructor escalation,complete,2026-08-18,register-2026-08-26
+AI-005,Remote Proctor Signal,Flags assessment sessions for review,Assessment Operations,unknown,yes,learners,classification,yes,human adjudication,stale,2026-04-15,register-2026-08-26
+AI-006,Staff Summary Assistant,Summarizes internal meeting notes,People Operations,no,yes,staff,text,not_applicable,author review,complete,2026-08-14,register-2026-08-26
+AI-007,Website Guide Avatar,Answers public programme questions,Marketing,no,yes,public,direct_interaction,no,marketing escalation,conflicting,2026-08-21,register-2026-08-26
+AI-008,Video Localisation Tool,Generates dubbed public programme videos,Communications,no,yes,public,synthetic_audio_video,visible_label,communications approval,partial,2026-08-19,register-2026-08-26

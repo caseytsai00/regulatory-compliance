@@ -1,0 +1,188 @@
+{
+  "consumed_record_ids": [
+    "ACT-001",
+    "ACT-002",
+    "ACT-003",
+    "ACT-004",
+    "ACT-005",
+    "ACT-006",
+    "ACT-007",
+    "ACT-008",
+    "APR-ACT-001",
+    "APR-ACT-002",
+    "APR-ACT-003",
+    "APR-ACT-004",
+    "APR-ACT-005",
+    "APR-ACT-006",
+    "APR-ACT-007",
+    "APR-ACT-008"
+  ],
+  "created_at": "2026-09-18T00:19:53Z",
+  "decisions": [
+    {
+      "evidence_ids": [],
+      "id": "DEC-PUBLICATION-STATUS",
+      "owner": null,
+      "rationale": "README frames unresolved/conflicting applicability evidence as a normal non-happy-path outcome distinct from unavailable binding evidence, which alone is described as blocking formal impact conclusions.",
+      "summary": "publication_status = validated even though impact/register items remain unresolved",
+      "tradeoffs": [
+        "'validated' does not mean fully resolved -- a reader of only this field could mistake it for a clean bill of health; mitigated by requiring the register/brief to surface every open item explicitly."
+      ]
+    }
+  ],
+  "predecessor": {
+    "path": "/Users/caseytsai/GitRollTraining/regulatory-compliance/deliverables/snapshots/06-actions-and-approvals.json",
+    "sha256": "sha256:e5f17fcecf8d56eb194a880b14df91f3ca2ba98ab931b8439bb742d4e6e2f66e",
+    "snapshot_id": "rc-article50-2026-08-26-actions-and-approvals"
+  },
+  "produced_record_ids": [
+    "ART-impact-register.csv",
+    "ART-compliance-brief.md",
+    "ART-action-calendar.ics"
+  ],
+  "run_id": "rc-article50-2026-08-26",
+  "schema_version": "regulatory-compliance-stage-snapshot/2",
+  "sequence": 7,
+  "snapshot_id": "rc-article50-2026-08-26-publication-validation",
+  "stage": "publication-validation",
+  "state": {
+    "artifacts": [
+      {
+        "id": "ART-impact-register.csv",
+        "path": "deliverables/impact-register.csv",
+        "sha256": "sha256:b0d86a4eff749f87ad8104bda601c9042ac8aaab484f39092f2d6a189390788a",
+        "validation_status": "valid"
+      },
+      {
+        "id": "ART-compliance-brief.md",
+        "path": "deliverables/compliance-brief.md",
+        "sha256": "sha256:40dcdbe1fb46db97aded917dd03e7185662516c272ad0529901da037e3461105",
+        "validation_status": "valid"
+      },
+      {
+        "id": "ART-action-calendar.ics",
+        "path": "deliverables/action-calendar.ics",
+        "sha256": "sha256:8c5eb800ff691231edcaeaf93056a7800ca997330bb7d9a4d99b4f8cb9ffa4f0",
+        "validation_status": "valid"
+      }
+    ],
+    "publication_status": "validated",
+    "validation_checks": [
+      {
+        "evidence_ids": [
+          "rc-article50-2026-08-26-scope",
+          "rc-article50-2026-08-26-source-capture",
+          "rc-article50-2026-08-26-authority-and-timing",
+          "rc-article50-2026-08-26-evidence-reconciliation",
+          "rc-article50-2026-08-26-impact-analysis",
+          "rc-article50-2026-08-26-actions-and-approvals"
+        ],
+        "id": "CHECK-SCHEMA",
+        "owner": null,
+        "rationale": null,
+        "summary": "All 7 snapshots validated against snapshot.schema.json's shape rules."
+      },
+      {
+        "evidence_ids": [],
+        "id": "CHECK-CHAIN",
+        "owner": null,
+        "rationale": null,
+        "summary": "Predecessor hash chain verified intact from stage 1 through stage 6."
+      },
+      {
+        "evidence_ids": [
+          "IMPACT-AI-001",
+          "IMPACT-AI-002",
+          "IMPACT-AI-003",
+          "IMPACT-AI-004",
+          "IMPACT-AI-005",
+          "IMPACT-AI-006",
+          "IMPACT-AI-007",
+          "IMPACT-AI-008"
+        ],
+        "id": "CHECK-AGREEMENT",
+        "owner": null,
+        "rationale": null,
+        "summary": "Register/brief/calendar cross-checked against stage 5 impacts and stage 6 actions for matching IDs and states."
+      },
+      {
+        "evidence_ids": [
+          "SRC-OJ",
+          "SRC-AMEND",
+          "SRC-CONSOLIDATED"
+        ],
+        "id": "CHECK-BINDING-SOURCES",
+        "owner": null,
+        "rationale": null,
+        "summary": "All binding-regulation sources (OJ, AMEND, CONSOLIDATED) retrieved."
+      }
+    ]
+  },
+  "status": "complete",
+  "unresolved": [
+    {
+      "evidence_ids": [
+        "REC-003"
+      ],
+      "id": "IMPACT-AI-003",
+      "owner": null,
+      "rationale": null,
+      "summary": "AI-003 -- Art. 50(2) marking (public synthetic image; not an assistive-editing exemption)"
+    },
+    {
+      "evidence_ids": [
+        "REC-008"
+      ],
+      "id": "IMPACT-AI-007",
+      "owner": null,
+      "rationale": null,
+      "summary": "AI-007 -- Art. 50(1) notice (public exposed group)"
+    },
+    {
+      "evidence_ids": [
+        "REC-005",
+        "REC-006"
+      ],
+      "id": "IMPACT-AI-005",
+      "owner": null,
+      "rationale": null,
+      "summary": "AI-005 -- undetermined"
+    },
+    {
+      "evidence_ids": [
+        "ACT-002"
+      ],
+      "id": "ESC-ACT-002",
+      "owner": "Marketing",
+      "rationale": null,
+      "summary": "Resolve disclosure evidence conflict -- conflicting evidence a system owner cannot resolve alone"
+    },
+    {
+      "evidence_ids": [
+        "ACT-004"
+      ],
+      "id": "ESC-ACT-004",
+      "owner": "Communications",
+      "rationale": null,
+      "summary": "Verify machine-readable provenance after publishing -- conflicting evidence a system owner cannot resolve alone"
+    },
+    {
+      "evidence_ids": [
+        "ACT-005"
+      ],
+      "id": "ESC-ACT-005",
+      "owner": "Assessment Operations",
+      "rationale": null,
+      "summary": "Refresh provider-role and release evidence -- missing required legal/operational inputs prevent forming a valid compliance position"
+    },
+    {
+      "evidence_ids": [
+        "ACT-007"
+      ],
+      "id": "ESC-ACT-007",
+      "owner": "Legal",
+      "rationale": null,
+      "summary": "Review exception request -- blocked progress; unapproved exception awaiting Legal action"
+    }
+  ]
+}

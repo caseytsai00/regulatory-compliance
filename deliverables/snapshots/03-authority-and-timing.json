@@ -1,0 +1,158 @@
+{
+  "consumed_record_ids": [
+    "SRC-LAW",
+    "SRC-OJ",
+    "SRC-AMEND",
+    "SRC-CONSOLIDATED",
+    "SRC-FAQ",
+    "SRC-TIME"
+  ],
+  "created_at": "2026-09-18T00:19:53Z",
+  "decisions": [],
+  "predecessor": {
+    "path": "/Users/caseytsai/GitRollTraining/regulatory-compliance/deliverables/snapshots/02-source-capture.json",
+    "sha256": "sha256:187de596529eecaf3e2b4d34d04c7ff393480450a4bd031ccce38aa8010cdce9",
+    "snapshot_id": "rc-article50-2026-08-26-source-capture"
+  },
+  "produced_record_ids": [
+    "RULE-ART50-1",
+    "RULE-ART50-2",
+    "RULE-ART50-3",
+    "RULE-ART50-4",
+    "RULE-ART50-5",
+    "TIMING-2026-08-02",
+    "TIMING-2026-12-02",
+    "GUIDANCE-FAQ-GRACE",
+    "GUIDANCE-FAQ-EDITORIAL",
+    "BLOCKER-LAW-ART50-7"
+  ],
+  "run_id": "rc-article50-2026-08-26",
+  "schema_version": "regulatory-compliance-stage-snapshot/2",
+  "sequence": 3,
+  "snapshot_id": "rc-article50-2026-08-26-authority-and-timing",
+  "stage": "authority-and-timing",
+  "state": {
+    "authority_blockers": [
+      {
+        "evidence_ids": [
+          "SRC-LAW",
+          "SRC-AMEND",
+          "SRC-CONSOLIDATED"
+        ],
+        "id": "BLOCKER-LAW-ART50-7",
+        "owner": null,
+        "rationale": null,
+        "summary": "LAW (dated 'Official version of 13 June 2024') still describes the Commission's Art. 50(7) implementing-act power over codes of practice; AMEND/CONSOLIDATED (in force 2026-07-27) confirm it was removed. LAW is stale relative to the currently governing text."
+      }
+    ],
+    "binding_rules": [
+      {
+        "evidence_ids": [
+          "SRC-CONSOLIDATED",
+          "SRC-OJ"
+        ],
+        "id": "RULE-ART50-1",
+        "owner": null,
+        "rationale": null,
+        "summary": "Providers must ensure direct-interaction AI systems disclose AI nature to natural persons (Art. 50(1))."
+      },
+      {
+        "evidence_ids": [
+          "SRC-CONSOLIDATED",
+          "SRC-OJ"
+        ],
+        "id": "RULE-ART50-2",
+        "owner": null,
+        "rationale": null,
+        "summary": "Providers of generative AI must mark synthetic audio/image/video/text outputs in machine-readable, detectable form (Art. 50(2))."
+      },
+      {
+        "evidence_ids": [
+          "SRC-CONSOLIDATED",
+          "SRC-OJ"
+        ],
+        "id": "RULE-ART50-3",
+        "owner": null,
+        "rationale": null,
+        "summary": "Deployers of emotion-recognition/biometric-categorisation systems must inform exposed natural persons (Art. 50(3))."
+      },
+      {
+        "evidence_ids": [
+          "SRC-CONSOLIDATED",
+          "SRC-OJ"
+        ],
+        "id": "RULE-ART50-4",
+        "owner": null,
+        "rationale": null,
+        "summary": "Deployers must disclose deepfakes and AI-generated public-interest text, subject to editorial-control and artistic-work exemptions (Art. 50(4))."
+      },
+      {
+        "evidence_ids": [
+          "SRC-CONSOLIDATED",
+          "SRC-OJ"
+        ],
+        "id": "RULE-ART50-5",
+        "owner": null,
+        "rationale": null,
+        "summary": "Required disclosures must be given clearly and at the latest at first interaction/exposure (Art. 50(5))."
+      }
+    ],
+    "guidance_context": [
+      {
+        "evidence_ids": [
+          "SRC-FAQ"
+        ],
+        "id": "GUIDANCE-FAQ-GRACE",
+        "owner": null,
+        "rationale": null,
+        "summary": "FAQ confirms the 2026-08-02/2026-12-02 grace period is scoped to Art. 50(2) marking, not 50(1)/(3)/(4)."
+      },
+      {
+        "evidence_ids": [
+          "SRC-FAQ"
+        ],
+        "id": "GUIDANCE-FAQ-EDITORIAL",
+        "owner": null,
+        "rationale": null,
+        "summary": "FAQ defines the human-review/editorial-control exemption for Art. 50(4) text labeling as requiring deliberate professional review and one accountable publisher, not superficial checks."
+      }
+    ],
+    "timing_rules": [
+      {
+        "evidence_ids": [
+          "SRC-TIME",
+          "SRC-FAQ"
+        ],
+        "id": "TIMING-2026-08-02",
+        "owner": null,
+        "rationale": null,
+        "summary": "Article 50 transparency obligations apply from 2026-08-02."
+      },
+      {
+        "evidence_ids": [
+          "SRC-AMEND",
+          "SRC-FAQ",
+          "SRC-TIME"
+        ],
+        "id": "TIMING-2026-12-02",
+        "owner": null,
+        "rationale": null,
+        "summary": "Transitional period to 2026-12-02 for the Art. 50(2) marking obligation only, for products already on the EU market before 2026-08-02."
+      }
+    ]
+  },
+  "status": "complete",
+  "unresolved": [
+    {
+      "evidence_ids": [
+        "SRC-LAW",
+        "SRC-AMEND",
+        "SRC-CONSOLIDATED"
+      ],
+      "id": "BLOCKER-LAW-ART50-7",
+      "owner": null,
+      "rationale": null,
+      "summary": "LAW (dated 'Official version of 13 June 2024') still describes the Commission's Art. 50(7) implementing-act power over codes of practice; AMEND/CONSOLIDATED (in force 2026-07-27) confirm it was removed. LAW is stale relative to the currently governing text."
+    }
+  ]
+}

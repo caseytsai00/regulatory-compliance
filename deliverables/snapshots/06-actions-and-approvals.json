@@ -1,0 +1,288 @@
+{
+  "consumed_record_ids": [
+    "IMPACT-AI-001",
+    "IMPACT-AI-002",
+    "IMPACT-AI-003",
+    "IMPACT-AI-004",
+    "IMPACT-AI-005",
+    "IMPACT-AI-006",
+    "IMPACT-AI-007",
+    "IMPACT-AI-008",
+    "SRC-CALENDAR"
+  ],
+  "created_at": "2026-09-18T00:19:53Z",
+  "decisions": [
+    {
+      "evidence_ids": [],
+      "id": "DEC-ESCALATION-RULE",
+      "owner": null,
+      "rationale": "Stakeholder's confirmed definition (follow-up answer): an ordinary approval step is a completed draft going to Legal/Operations for \"routine review, sign-off, or feedback\"; an escalation is \"blocked progress, conflicting evidence that system owners cannot resolve on their own, unapproved exceptions, or missing required legal and operational inputs that prevent us from forming a valid compliance position.\" Each clause is mapped to a structured field already computed this run rather than to the action's free-text description: status=='blocked' (blocked progress); the action's system has an evidence_state=='conflicting' record (conflicting evidence); the system has an exception_request record not yet 'complete' AND the action itself is approval_required=='legal' (unapproved exception -- scoped to the legal-gated action specifically, since that is literally what needs Legal approval, not every action touching that system); the system's stage-5 impact state is 'unresolved' (missing inputs -- we could not even form a position).",
+      "summary": "Escalation = blocked status, OR conflicting evidence, OR an unapproved exception on a legal-gated action, OR an unresolved impact state",
+      "tradeoffs": [
+        "Scoping the exception trigger to approval_required=='legal' actions correctly separates AI-008's two actions (ACT-007 review-the-exception vs. ACT-006 routine provenance test that Communications can complete on its own), but relies on approval_required being set correctly per action -- a miscoded action could hide a real exception escalation or falsely flag a routine one.",
+        "A conflicting-evidence system escalates every action tied to it, not just the one addressing that specific record; on this run every conflicting system happens to have exactly one action, so this hasn't been tested against a system with multiple actions where only one addresses the conflict."
+      ]
+    }
+  ],
+  "predecessor": {
+    "path": "/Users/caseytsai/GitRollTraining/regulatory-compliance/deliverables/snapshots/05-impact-analysis.json",
+    "sha256": "sha256:3bf898bb2e4ca22a9395b01456bc6785939df53f3c90f0186d2bb380e11a592a",
+    "snapshot_id": "rc-article50-2026-08-26-impact-analysis"
+  },
+  "produced_record_ids": [
+    "ACT-001",
+    "ACT-002",
+    "ACT-003",
+    "ACT-004",
+    "ACT-005",
+    "ACT-006",
+    "ACT-007",
+    "ACT-008",
+    "APR-ACT-001",
+    "APR-ACT-002",
+    "APR-ACT-003",
+    "APR-ACT-004",
+    "APR-ACT-005",
+    "APR-ACT-006",
+    "APR-ACT-007",
+    "APR-ACT-008"
+  ],
+  "run_id": "rc-article50-2026-08-26",
+  "schema_version": "regulatory-compliance-stage-snapshot/2",
+  "sequence": 6,
+  "snapshot_id": "rc-article50-2026-08-26-actions-and-approvals",
+  "stage": "actions-and-approvals",
+  "state": {
+    "approval_requirements": [
+      {
+        "evidence_ids": [
+          "ACT-001"
+        ],
+        "id": "APR-ACT-001",
+        "owner": "operations",
+        "rationale": null,
+        "status": "pending",
+        "summary": "Approval for ACT-001 (operations)"
+      },
+      {
+        "evidence_ids": [
+          "ACT-002"
+        ],
+        "id": "APR-ACT-002",
+        "owner": "operations",
+        "rationale": null,
+        "status": "pending",
+        "summary": "Approval for ACT-002 (operations)"
+      },
+      {
+        "evidence_ids": [
+          "ACT-003"
+        ],
+        "id": "APR-ACT-003",
+        "owner": "legal",
+        "rationale": null,
+        "status": "pending",
+        "summary": "Approval for ACT-003 (legal)"
+      },
+      {
+        "evidence_ids": [
+          "ACT-004"
+        ],
+        "id": "APR-ACT-004",
+        "owner": "operations",
+        "rationale": null,
+        "status": "pending",
+        "summary": "Approval for ACT-004 (operations)"
+      },
+      {
+        "evidence_ids": [
+          "ACT-005"
+        ],
+        "id": "APR-ACT-005",
+        "owner": "legal",
+        "rationale": null,
+        "status": "pending",
+        "summary": "Approval for ACT-005 (legal)"
+      },
+      {
+        "evidence_ids": [
+          "ACT-006"
+        ],
+        "id": "APR-ACT-006",
+        "owner": "operations",
+        "rationale": null,
+        "status": "pending",
+        "summary": "Approval for ACT-006 (operations)"
+      },
+      {
+        "evidence_ids": [
+          "ACT-007"
+        ],
+        "id": "APR-ACT-007",
+        "owner": "legal",
+        "rationale": null,
+        "status": "pending",
+        "summary": "Approval for ACT-007 (legal)"
+      },
+      {
+        "evidence_ids": [
+          "ACT-008"
+        ],
+        "id": "APR-ACT-008",
+        "owner": "operations",
+        "rationale": null,
+        "status": "pending",
+        "summary": "Approval for ACT-008 (operations)"
+      }
+    ],
+    "escalations": [
+      {
+        "evidence_ids": [
+          "ACT-002"
+        ],
+        "id": "ESC-ACT-002",
+        "owner": "Marketing",
+        "rationale": null,
+        "summary": "Resolve disclosure evidence conflict -- conflicting evidence a system owner cannot resolve alone"
+      },
+      {
+        "evidence_ids": [
+          "ACT-004"
+        ],
+        "id": "ESC-ACT-004",
+        "owner": "Communications",
+        "rationale": null,
+        "summary": "Verify machine-readable provenance after publishing -- conflicting evidence a system owner cannot resolve alone"
+      },
+      {
+        "evidence_ids": [
+          "ACT-005"
+        ],
+        "id": "ESC-ACT-005",
+        "owner": "Assessment Operations",
+        "rationale": null,
+        "summary": "Refresh provider-role and release evidence -- missing required legal/operational inputs prevent forming a valid compliance position"
+      },
+      {
+        "evidence_ids": [
+          "ACT-007"
+        ],
+        "id": "ESC-ACT-007",
+        "owner": "Legal",
+        "rationale": null,
+        "summary": "Review exception request -- blocked progress; unapproved exception awaiting Legal action"
+      }
+    ],
+    "proposed_actions": [
+      {
+        "evidence_ids": [
+          "IMPACT-AI-004"
+        ],
+        "id": "ACT-001",
+        "owner": "Learning Experience",
+        "rationale": "due=2026-09-04 status=planned approval_required=operations",
+        "summary": "Add and verify first-interaction AI notice"
+      },
+      {
+        "evidence_ids": [
+          "IMPACT-AI-007"
+        ],
+        "id": "ACT-002",
+        "owner": "Marketing",
+        "rationale": "due=2026-09-03 status=open approval_required=operations",
+        "summary": "Resolve disclosure evidence conflict"
+      },
+      {
+        "evidence_ids": [
+          "IMPACT-AI-002"
+        ],
+        "id": "ACT-003",
+        "owner": "Admissions",
+        "rationale": "due=2026-09-08 status=open approval_required=legal",
+        "summary": "Confirm recipient disclosure practice"
+      },
+      {
+        "evidence_ids": [
+          "IMPACT-AI-003"
+        ],
+        "id": "ACT-004",
+        "owner": "Communications",
+        "rationale": "due=2026-09-10 status=open approval_required=operations",
+        "summary": "Verify machine-readable provenance after publishing"
+      },
+      {
+        "evidence_ids": [
+          "IMPACT-AI-005"
+        ],
+        "id": "ACT-005",
+        "owner": "Assessment Operations",
+        "rationale": "due=2026-09-12 status=open approval_required=legal",
+        "summary": "Refresh provider-role and release evidence"
+      },
+      {
+        "evidence_ids": [
+          "IMPACT-AI-008"
+        ],
+        "id": "ACT-006",
+        "owner": "Communications",
+        "rationale": "due=2026-09-09 status=open approval_required=operations",
+        "summary": "Complete provenance test"
+      },
+      {
+        "evidence_ids": [
+          "IMPACT-AI-008"
+        ],
+        "id": "ACT-007",
+        "owner": "Legal",
+        "rationale": "due=2026-09-15 status=blocked approval_required=legal",
+        "summary": "Review exception request"
+      },
+      {
+        "evidence_ids": [],
+        "id": "ACT-008",
+        "owner": "Operations",
+        "rationale": "due=2026-10-02 status=scheduled approval_required=operations",
+        "summary": "Quarterly AI register evidence review"
+      }
+    ]
+  },
+  "status": "complete",
+  "unresolved": [
+    {
+      "evidence_ids": [
+        "ACT-002"
+      ],
+      "id": "ESC-ACT-002",
+      "owner": "Marketing",
+      "rationale": null,
+      "summary": "Resolve disclosure evidence conflict -- conflicting evidence a system owner cannot resolve alone"
+    },
+    {
+      "evidence_ids": [
+        "ACT-004"
+      ],
+      "id": "ESC-ACT-004",
+      "owner": "Communications",
+      "rationale": null,
+      "summary": "Verify machine-readable provenance after publishing -- conflicting evidence a system owner cannot resolve alone"
+    },
+    {
+      "evidence_ids": [
+        "ACT-005"
+      ],
+      "id": "ESC-ACT-005",
+      "owner": "Assessment Operations",
+      "rationale": null,
+      "summary": "Refresh provider-role and release evidence -- missing required legal/operational inputs prevent forming a valid compliance position"
+    },
+    {
+      "evidence_ids": [
+        "ACT-007"
+      ],
+      "id": "ESC-ACT-007",
+      "owner": "Legal",
+      "rationale": null,
+      "summary": "Review exception request -- blocked progress; unapproved exception awaiting Legal action"
+    }
+  ]
+}

@@ -1,0 +1,273 @@
+{
+  "consumed_record_ids": [
+    "SCOPE-2026-08-26"
+  ],
+  "created_at": "2026-09-18T00:19:53Z",
+  "decisions": [
+    {
+      "evidence_ids": [],
+      "id": "DEC-SOURCE-COUNT",
+      "owner": null,
+      "rationale": "Interview said '8 documents' but its own next answer described the set as covering legal texts, guidance, internal policy, system inventories, evidence records, and action calendars -- which only totals 10 if SYSTEMS/EVIDENCE/CALENDAR are included. Confirmed with the stakeholder.",
+      "summary": "Treated all 10 named items as the source set, not literally '8'",
+      "tradeoffs": [
+        "If a genuine unnamed 8th legal/guidance document exists, this run misses it silently; none surfaced in any fetched content."
+      ]
+    },
+    {
+      "evidence_ids": [
+        "SRC-POLICY"
+      ],
+      "id": "DEC-POLICY-MANUAL-EXPORT",
+      "owner": null,
+      "rationale": "Direct curl of the Notion URL returns a client-rendered shell with no page body; a stdlib-only script cannot execute the JS that renders real content, so a 'live fetch' would return the same empty result every run. Confirmed with the stakeholder.",
+      "summary": "POLICY captured as a manual-export local reference, not a live fetch",
+      "tradeoffs": [
+        "Cannot detect if the Notion page's content changes between runs the way a live HTML/CSV fetch can; re-export is a manual step tied to the AI-POL-2026-08-15 version string."
+      ]
+    }
+  ],
+  "predecessor": {
+    "path": "/Users/caseytsai/GitRollTraining/regulatory-compliance/deliverables/snapshots/01-scope.json",
+    "sha256": "sha256:d1832fbf8b646c50cbe07c2e38171b577f0d67885926ba490b478326c901ff94",
+    "snapshot_id": "rc-article50-2026-08-26-scope"
+  },
+  "produced_record_ids": [
+    "SRC-LAW",
+    "SRC-OJ",
+    "SRC-AMEND",
+    "SRC-CONSOLIDATED",
+    "SRC-FAQ",
+    "SRC-TIME",
+    "SRC-SYSTEMS",
+    "SRC-EVIDENCE",
+    "SRC-CALENDAR",
+    "SRC-POLICY"
+  ],
+  "run_id": "rc-article50-2026-08-26",
+  "schema_version": "regulatory-compliance-stage-snapshot/2",
+  "sequence": 2,
+  "snapshot_id": "rc-article50-2026-08-26-source-capture",
+  "stage": "source-capture",
+  "state": {
+    "sources": [
+      {
+        "authority": "advisory",
+        "content_hash": "sha256:7ef2b5c5c286d2565f22609e4061d30c100d9b236362b6f56479a50bf58c9960",
+        "content_type": "text/html",
+        "evidence_ids": [],
+        "id": "SRC-LAW",
+        "local_reference": "deliverables/snapshots/sources/SRC-LAW.raw",
+        "locator": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50",
+        "owner": null,
+        "rationale": null,
+        "retrieval_status": "retrieved",
+        "retrieved_at": "2026-09-18T00:19:44Z",
+        "source_role": "official-guidance",
+        "summary": "EU AI Act service desk: Article 50 plain-language restatement",
+        "version_metadata": {
+          "date_like_strings_found": [
+            "13 June 2024"
+          ],
+          "marker": "Article 50"
+        }
+      },
+      {
+        "authority": "binding",
+        "content_hash": "sha256:1273b21007effa3e32685b4eb91fb253a6ed4a9dcd3396ca2d03fc00c64e5140",
+        "content_type": "text/html",
+        "evidence_ids": [],
+        "id": "SRC-OJ",
+        "local_reference": "deliverables/snapshots/sources/SRC-OJ.raw",
+        "locator": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
+        "owner": null,
+        "rationale": null,
+        "retrieval_status": "retrieved",
+        "retrieved_at": "2026-09-18T00:19:44Z",
+        "source_role": "binding-regulation",
+        "summary": "Official Journal publication of Regulation (EU) 2024/1689",
+        "version_metadata": {
+          "date_like_strings_found": [
+            "13 June 2024",
+            "13 Meitheamh 2024",
+            "13 czerwca 2024",
+            "13 giugno 2024",
+            "13 iunie 2024"
+          ],
+          "marker": "2024/1689"
+        }
+      },
+      {
+        "authority": "binding",
+        "content_hash": "sha256:309c550ba6124a2eac092a9a13202b7a6188046460fe9fe2d55b61d749e2b88a",
+        "content_type": "text/html",
+        "evidence_ids": [],
+        "id": "SRC-AMEND",
+        "local_reference": "deliverables/snapshots/sources/SRC-AMEND.raw",
+        "locator": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ%3AL_202601744",
+        "owner": null,
+        "rationale": null,
+        "retrieval_status": "retrieved",
+        "retrieved_at": "2026-09-18T00:19:44Z",
+        "source_role": "binding-regulation",
+        "summary": "Regulation (EU) 2026/1744 (Digital Omnibus on AI), amends 2024/1689 incl. Article 50",
+        "version_metadata": {
+          "date_like_strings_found": [
+            "8 July 2026",
+            "8 iulie 2026",
+            "8 juillet 2026",
+            "8 juli 2026",
+            "8 lipca 2026"
+          ],
+          "marker": "2026/1744"
+        }
+      },
+      {
+        "authority": "binding",
+        "content_hash": "sha256:da72a163a22e21504020b5db5044b97eb64fab1056cdb500689abb8b0a7f5e0c",
+        "content_type": "text/html",
+        "evidence_ids": [],
+        "id": "SRC-CONSOLIDATED",
+        "local_reference": "deliverables/snapshots/sources/SRC-CONSOLIDATED.raw",
+        "locator": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727",
+        "owner": null,
+        "rationale": null,
+        "retrieval_status": "retrieved",
+        "retrieved_at": "2026-09-18T00:19:44Z",
+        "source_role": "binding-regulation",
+        "summary": "Consolidated text of Regulation 2024/1689 as of 2026-07-27",
+        "version_metadata": {
+          "date_like_strings_found": [
+            "11 March 2008",
+            "11 May 2016",
+            "12 September 2018",
+            "13 April 2016",
+            "13 June 2024"
+          ],
+          "marker": "02024R1689"
+        }
+      },
+      {
+        "authority": "advisory",
+        "content_hash": "sha256:90a23f53684f1c6868574de4fad82cc9a4fccc82041186661c4f9c2ff2b1be00",
+        "content_type": "text/html",
+        "evidence_ids": [],
+        "id": "SRC-FAQ",
+        "local_reference": "deliverables/snapshots/sources/SRC-FAQ.raw",
+        "locator": "https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act",
+        "owner": null,
+        "rationale": null,
+        "retrieval_status": "retrieved",
+        "retrieved_at": "2026-09-18T00:19:44Z",
+        "source_role": "official-guidance",
+        "summary": "European Commission FAQ on Article 50 transparency obligations",
+        "version_metadata": {
+          "date_like_strings_found": [
+            "2 August 2026",
+            "2 December 2026",
+            "24 July 2026"
+          ],
+          "marker": "Article 50"
+        }
+      },
+      {
+        "authority": "advisory",
+        "content_hash": "sha256:58b9d69f9068d131412aee0c96cafa3d4a05f49b20058b68259a64337e300a5a",
+        "content_type": "text/html",
+        "evidence_ids": [],
+        "id": "SRC-TIME",
+        "local_reference": "deliverables/snapshots/sources/SRC-TIME.raw",
+        "locator": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/eu-ai-act-implementation-timeline",
+        "owner": null,
+        "rationale": null,
+        "retrieval_status": "retrieved",
+        "retrieved_at": "2026-09-18T00:19:44Z",
+        "source_role": "official-guidance",
+        "summary": "EU AI Act implementation timeline",
+        "version_metadata": {
+          "date_like_strings_found": [
+            "01 Aug 2024",
+            "02 Aug 2025",
+            "02 Aug 2026",
+            "02 Aug 2027",
+            "02 Aug 2028"
+          ],
+          "marker": "AI Act"
+        }
+      },
+      {
+        "authority": "operational-evidence",
+        "content_hash": "sha256:5ccd555dac9dc3af5a77d3206105fb093565865f7283abe43f5339dd46ed8a80",
+        "content_type": "text/csv",
+        "evidence_ids": [],
+        "id": "SRC-SYSTEMS",
+        "local_reference": "deliverables/snapshots/sources/SRC-SYSTEMS.raw",
+        "locator": "https://docs.google.com/spreadsheets/d/10ky745H_1h9XbGCXPJsiRp5yfdeU08TZtmrsCMinGgU/export?format=csv&gid=0",
+        "owner": null,
+        "rationale": null,
+        "retrieval_status": "retrieved",
+        "retrieved_at": "2026-09-18T00:19:44Z",
+        "source_role": "operational-record",
+        "summary": "Quillhaven AI system register (8 registered uses)",
+        "version_metadata": null
+      },
+      {
+        "authority": "operational-evidence",
+        "content_hash": "sha256:3dacdd595cbbdb17749bc879b01f197d2c5691ab5e2385aacef797ebdea7295b",
+        "content_type": "text/csv",
+        "evidence_ids": [],
+        "id": "SRC-EVIDENCE",
+        "local_reference": "deliverables/snapshots/sources/SRC-EVIDENCE.raw",
+        "locator": "https://docs.google.com/spreadsheets/d/19BYZ68OSbsa1i9OfF6MzthrdC6q6mt6IWk6ucI8u7Rk/export?format=csv&gid=0",
+        "owner": null,
+        "rationale": null,
+        "retrieval_status": "retrieved",
+        "retrieved_at": "2026-09-18T00:19:44Z",
+        "source_role": "operational-record",
+        "summary": "Quillhaven incident and evidence register",
+        "version_metadata": null
+      },
+      {
+        "authority": "operational-evidence",
+        "content_hash": "sha256:cb3e2ba90e96733e5713102f0653dd02d0282be92058e60febe5af899926d8ab",
+        "content_type": "text/csv",
+        "evidence_ids": [],
+        "id": "SRC-CALENDAR",
+        "local_reference": "deliverables/snapshots/sources/SRC-CALENDAR.raw",
+        "locator": "https://docs.google.com/spreadsheets/d/1xtXl_P7Yb9LaECZjjgtlyI-idoAJTAhH-1gQ4vQaCGA/export?format=csv&gid=0",
+        "owner": null,
+        "rationale": null,
+        "retrieval_status": "retrieved",
+        "retrieved_at": "2026-09-18T00:19:44Z",
+        "source_role": "operational-record",
+        "summary": "Quillhaven compliance action calendar",
+        "version_metadata": null
+      },
+      {
+        "authority": "internal-control",
+        "content_hash": "sha256:ee5551c3c3c6d718c391675b524bd9e2957692b4eaceb02f80d87b9eabee64bf",
+        "content_type": "text/markdown",
+        "evidence_ids": [],
+        "id": "SRC-POLICY",
+        "local_reference": "regulatory-change-impact-brief/references/internal-policy.md",
+        "locator": "https://private-pecorino-70e.notion.site/Project-2-Regulatory-Compliance-Current-Internal-Policies-3ba0b700541e81f09998d48f3b1c2856",
+        "owner": null,
+        "rationale": null,
+        "retrieval_status": "retrieved",
+        "retrieved_at": "2026-09-18T00:19:44Z",
+        "source_role": "internal-policy",
+        "summary": "Internal policy AI-POL-2026-08-15 + Article 50 operating-facts context (manual export)",
+        "version_metadata": {
+          "date_like_strings_found": [
+            "1 June 2026",
+            "12 September 2026",
+            "26 August 2026"
+          ],
+          "marker": "AI-POL-2026-08-15"
+        }
+      }
+    ]
+  },
+  "status": "complete",
+  "unresolved": []
+}

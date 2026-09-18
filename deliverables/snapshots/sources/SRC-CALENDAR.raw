@@ -1,0 +1,9 @@
+action_id,system_id,action,owner,due_date,status,approval_required,source_version
+ACT-001,AI-004,Add and verify first-interaction AI notice,Learning Experience,2026-09-04,planned,operations,calendar-2026-08-26
+ACT-002,AI-007,Resolve disclosure evidence conflict,Marketing,2026-09-03,open,operations,calendar-2026-08-26
+ACT-003,AI-002,Confirm recipient disclosure practice,Admissions,2026-09-08,open,legal,calendar-2026-08-26
+ACT-004,AI-003,Verify machine-readable provenance after publishing,Communications,2026-09-10,open,operations,calendar-2026-08-26
+ACT-005,AI-005,Refresh provider-role and release evidence,Assessment Operations,2026-09-12,open,legal,calendar-2026-08-26
+ACT-006,AI-008,Complete provenance test,Communications,2026-09-09,open,operations,calendar-2026-08-26
+ACT-007,AI-008,Review exception request,Legal,2026-09-15,blocked,legal,calendar-2026-08-26
+ACT-008,ALL,Quarterly AI register evidence review,Operations,2026-10-02,scheduled,operations,calendar-2026-08-26
